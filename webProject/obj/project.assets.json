@@ -496,11 +496,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\webProject\\webProject.csproj",
+      "projectUniqueName": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\webProject.csproj",
       "projectName": "webProject",
-      "projectPath": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\webProject\\webProject.csproj",
+      "projectPath": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\webProject.csproj",
       "packagesPath": "C:\\Users\\meeuc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\webProject\\obj\\",
+      "outputPath": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

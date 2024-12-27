@@ -22,7 +22,7 @@ namespace webProject
         };
 
         public static async Task<HttpResponseMessage> GetPictureById(CancellationToken ctx, string id) {
-            var res = await _httpClient.GetAsync($"https://www.artic.edu/iiif/2/{id}/full/4000,/0/default.jpg");
+            var res = await _httpClient.GetAsync($"https://www.artic.edu/iiif/2/{id}/full/900,/0/default.jpg");
             if (res.StatusCode == HttpStatusCode.OK) {
                 return res;
             }
