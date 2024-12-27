@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Transition</title>
+    <style>
+        #content {
+            overflow: hidden;
+            height: 0;
+            transition: height 0.5s ease;
+        }
+
+        .expanded {
+            height: auto; /* This will be handled by JavaScript */
+        }
+    </style>
+</head>
+<body>
+    <button id="toggleButton">Toggle Content</button>
+    <div id="content">
+        <p>This is some content that will expand and collapse.</p>
+    </div>
+
+    <script>
+        const content = document.getElementById('content');
+        const toggleButton = document.getElementById('toggleButton');
+
+        toggleButton.addEventListener('click', () => {
+            if (content.classList.contains('expanded')) {
+                content.style.height = `${content.scrollHeight}px`;
+                requestAnimationFrame(() => {
+                    content.style.height = '0';
+                    content.classList.remove('expanded');
+                });
+            } else {
+                content.style.height = `${content.scrollHeight}px`;
+                content.classList.add('expanded');
+                content.addEventListener('transitionend', () => {
+                    if (content.classList.contains('expanded')) {
+                        content.style.height = 'auto';
+                    }
+                }, { once: true });
+            }
+        });
+    </script>
+</body>
+</html>

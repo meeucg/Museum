@@ -1,0 +1,69 @@
+2024-12-20 16:24:47.479 MSK [26888] LOG:  starting PostgreSQL 17.2 on x86_64-windows, compiled by msvc-19.42.34433, 64-bit
+2024-12-20 16:24:47.484 MSK [26888] LOG:  listening on IPv6 address "::1", port 5002
+2024-12-20 16:24:47.484 MSK [26888] LOG:  listening on IPv4 address "127.0.0.1", port 5002
+2024-12-20 16:24:47.573 MSK [29896] LOG:  database system was shut down at 2024-12-20 16:23:41 MSK
+2024-12-20 16:24:47.615 MSK [26888] LOG:  database system is ready to accept connections
+2024-12-20 16:28:21.767 MSK [26160] ERROR:  syntax error at or near "create" at character 23
+2024-12-20 16:28:21.767 MSK [26160] STATEMENT:  create table users ()
+	create table users (id integer default nextval("user_id_seq") primary key);
+2024-12-20 16:28:33.637 MSK [26160] ERROR:  cannot use column reference in DEFAULT expression at character 48
+2024-12-20 16:28:33.637 MSK [26160] STATEMENT:  create table users (id integer default nextval("user_id_seq") primary key);
+2024-12-20 16:29:47.576 MSK [10728] LOG:  checkpoint starting: time
+2024-12-20 16:29:52.947 MSK [10728] LOG:  checkpoint complete: wrote 50 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.274 s, sync=0.047 s, total=5.372 s; sync files=34, longest=0.013 s, average=0.002 s; distance=143 kB, estimate=143 kB; lsn=0/1591CC0, redo lsn=0/1591C68
+2024-12-20 16:46:57.744 MSK [26160] ERROR:  cannot use column reference in DEFAULT expression at character 48
+2024-12-20 16:46:57.744 MSK [26160] STATEMENT:  create table users (id integer default nextval(user_id_seq) primary key);
+2024-12-20 16:48:18.382 MSK [10728] LOG:  checkpoint starting: time
+2024-12-20 16:48:22.931 MSK [10728] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.498 s, sync=0.025 s, total=4.549 s; sync files=33, longest=0.009 s, average=0.001 s; distance=134 kB, estimate=142 kB; lsn=0/15B3848, redo lsn=0/15B37F0
+2024-12-20 16:53:18.999 MSK [10728] LOG:  checkpoint starting: time
+2024-12-20 16:53:23.337 MSK [10728] LOG:  checkpoint complete: wrote 28 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.529 s, sync=0.013 s, total=4.338 s; sync files=25, longest=0.001 s, average=0.001 s; distance=70 kB, estimate=135 kB; lsn=0/15C50A0, redo lsn=0/15C5010
+2024-12-20 20:16:24.109 MSK [10728] LOG:  checkpoint starting: time
+2024-12-20 20:16:24.893 MSK [10728] LOG:  checkpoint complete: wrote 8 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.768 s, sync=0.008 s, total=0.785 s; sync files=7, longest=0.003 s, average=0.002 s; distance=0 kB, estimate=121 kB; lsn=0/15C53B0, redo lsn=0/15C5358
+2024-12-20 20:18:04.211 MSK [27860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-12-20 20:19:17.870 MSK [3860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-12-20 20:21:19.572 MSK [7908] ERROR:  syntax error at or near "remove" at character 1
+2024-12-20 20:21:19.572 MSK [7908] STATEMENT:  remove * from users;
+2024-12-20 20:21:24.898 MSK [10728] LOG:  checkpoint starting: time
+2024-12-20 20:21:25.245 MSK [10728] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.331 s, sync=0.006 s, total=0.347 s; sync files=4, longest=0.002 s, average=0.002 s; distance=1 kB, estimate=109 kB; lsn=0/15C58A0, redo lsn=0/15C5848
+2024-12-20 20:26:24.254 MSK [10728] LOG:  checkpoint starting: time
+2024-12-20 20:26:24.605 MSK [10728] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.334 s, sync=0.007 s, total=0.352 s; sync files=4, longest=0.003 s, average=0.002 s; distance=1 kB, estimate=98 kB; lsn=0/15C5F00, redo lsn=0/15C5EA8
+2024-12-20 20:31:46.481 MSK [26888] LOG:  received fast shutdown request
+2024-12-20 20:31:46.484 MSK [29028] ERROR:  canceling statement due to user request
+2024-12-20 20:31:46.485 MSK [26888] LOG:  aborting any active transactions
+2024-12-20 20:31:46.486 MSK [42796] FATAL:  terminating connection due to administrator command
+2024-12-20 20:31:46.486 MSK [41040] FATAL:  terminating connection due to administrator command
+2024-12-20 20:31:46.486 MSK [28160] FATAL:  terminating connection due to administrator command
+2024-12-20 20:31:46.486 MSK [33152] FATAL:  terminating connection due to administrator command
+2024-12-20 20:31:46.486 MSK [7908] FATAL:  terminating connection due to administrator command
+2024-12-20 20:31:46.515 MSK [26888] LOG:  background worker "logical replication launcher" (PID 29028) exited with exit code 1
+2024-12-20 20:31:46.518 MSK [10728] LOG:  shutting down
+2024-12-20 20:31:46.520 MSK [10728] LOG:  checkpoint starting: shutdown immediate
+2024-12-20 20:31:46.526 MSK [10728] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.007 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=88 kB; lsn=0/15C5FB0, redo lsn=0/15C5FB0
+2024-12-20 20:31:46.535 MSK [26888] LOG:  database system is shut down
+2024-12-20 20:37:05.935 MSK [27352] LOG:  starting PostgreSQL 17.2 on x86_64-windows, compiled by msvc-19.42.34433, 64-bit
+2024-12-20 20:37:05.937 MSK [27352] LOG:  listening on IPv6 address "::1", port 5002
+2024-12-20 20:37:05.937 MSK [27352] LOG:  listening on IPv4 address "127.0.0.1", port 5002
+2024-12-20 20:37:05.983 MSK [8892] LOG:  database system was shut down at 2024-12-20 20:31:46 MSK
+2024-12-20 20:37:05.998 MSK [27352] LOG:  database system is ready to accept connections
+2024-12-20 20:38:05.582 MSK [17276] WARNING:  PID 41040 is not a PostgreSQL backend process
+2024-12-20 20:38:09.019 MSK [30144] WARNING:  PID 33152 is not a PostgreSQL backend process
+2024-12-20 20:38:12.314 MSK [38316] WARNING:  PID 7908 is not a PostgreSQL backend process
+2024-12-20 20:38:14.319 MSK [42216] WARNING:  PID 42796 is not a PostgreSQL backend process
+2024-12-20 20:42:05.988 MSK [32340] LOG:  checkpoint starting: time
+2024-12-20 20:42:06.444 MSK [32340] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.443 s, sync=0.005 s, total=0.458 s; sync files=6, longest=0.002 s, average=0.001 s; distance=3 kB, estimate=3 kB; lsn=0/15C6F00, redo lsn=0/15C6EA8
+2024-12-20 21:21:33.292 MSK [38908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-12-20 21:22:19.535 MSK [32340] LOG:  checkpoint starting: time
+2024-12-20 21:22:19.887 MSK [32340] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.334 s, sync=0.011 s, total=0.353 s; sync files=4, longest=0.006 s, average=0.003 s; distance=3 kB, estimate=3 kB; lsn=0/15C7B58, redo lsn=0/15C7B00
+2024-12-20 22:57:58.818 MSK [32340] LOG:  checkpoint starting: time
+2024-12-20 22:57:59.172 MSK [32340] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.323 s, sync=0.010 s, total=0.355 s; sync files=4, longest=0.008 s, average=0.003 s; distance=2 kB, estimate=3 kB; lsn=0/15C8640, redo lsn=0/15C85E8
+2024-12-20 23:01:37.862 MSK [21024] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-12-20 23:07:58.204 MSK [32340] LOG:  checkpoint starting: time
+2024-12-20 23:07:58.556 MSK [32340] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.324 s, sync=0.010 s, total=0.353 s; sync files=4, longest=0.008 s, average=0.003 s; distance=3 kB, estimate=3 kB; lsn=0/15C95E8, redo lsn=0/15C9590
+2024-12-21 11:51:26.605 MSK [37784] FATAL:  terminating connection due to unexpected postmaster exit
+2024-12-21 11:51:26.605 MSK [13044] FATAL:  terminating connection due to unexpected postmaster exit
+2024-12-21 11:51:26.607 MSK [23272] FATAL:  terminating connection due to unexpected postmaster exit
+2024-12-21 11:51:26.610 MSK [35396] FATAL:  terminating connection due to unexpected postmaster exit
+2024-12-21 11:51:26.613 MSK [37680] FATAL:  terminating connection due to unexpected postmaster exit
