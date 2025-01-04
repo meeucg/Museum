@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.ObjectModel;
+using System.Data;
 using System.Net;
 using Npgsql;
 
@@ -64,13 +65,41 @@ public class DbContext
         return null;
     }
 
-    public async Task<Boolean> DeleteAllUsers(CancellationToken cancellationToken = default) {
+    public async Task<bool> DeleteAllUsers(CancellationToken cancellationToken = default) {
         await _dbConnection.OpenAsync(cancellationToken);
         try
         {
             const string sqlQuery = "BEGIN; DELETE FROM users; SELECT setval('user_id_seq', 1, false); COMMIT;";
             var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
             var reader = await cmd.ExecuteReaderAsync(cancellationToken);
+            return true;
+        }
+        catch 
+        {
+            return false;
+        }
+        finally
+        {
+            await _dbConnection.CloseAsync();
+        }
+    }
+
+    public async Task<bool> GetAllUserIds(CancellationToken cancellationToken = default) {
+        await _dbConnection.OpenAsync(cancellationToken);
+        List<int> ids = new List<int>();
+        try
+        {
+            const string sqlQuery = "SELECT * FROM users;";
+            var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
+            var reader = await cmd.ExecuteReaderAsync(cancellationToken);
+
+            while(await reader.ReadAsync(cancellationToken)){
+                int id = reader.GetInt32(0); 
+                ids.Add(id);
+            }
+            foreach(var i in ids){
+                Console.WriteLine(i);
+            }
             return true;
         }
         catch 

@@ -19,6 +19,8 @@ while (httpListener.IsListening)
     var request = context.Request;
     var localPath = request.Url?.LocalPath;
     var ctx = new CancellationTokenSource();
+    byte[]? file;
+
     _ = Task.Run(async () =>
     {
         switch (localPath)
@@ -27,7 +29,7 @@ while (httpListener.IsListening)
                 Console.WriteLine("HTML Request");
                 context.Response.StatusCode = 200;
                 context.Response.ContentType = "text/html";
-                var file = await File.ReadAllBytesAsync("./resources/html/homePage.html", ctx.Token);
+                file = await File.ReadAllBytesAsync("./resources/html/index.html", ctx.Token);
                 await context.Response.OutputStream.WriteAsync(file, ctx.Token);
                 break;
             case "/search" when request.HttpMethod == "GET":
@@ -36,7 +38,7 @@ while (httpListener.IsListening)
                 {
                     response.StatusCode = 400;
                 }
-                else 
+                else
                 {
                     try
                     {
@@ -44,7 +46,7 @@ while (httpListener.IsListening)
                         var responce = new ApiResponceMultiple();
                         responce.Data = new List<Art>();
 
-                        var typesFilter = new string[] { "Painting", "Print", "Drawing and Watercolor", 
+                        var typesFilter = new string[] { "Painting", "Print", "Drawing and Watercolor",
                             "Architectural Drawing", "Photograph" };
 
                         foreach (Art art in search.Data)
@@ -66,7 +68,7 @@ while (httpListener.IsListening)
                                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase
                             })), ctx.Token);
                     }
-                    catch 
+                    catch
                     {
                         response.StatusCode = 404;
                     }
@@ -83,7 +85,7 @@ while (httpListener.IsListening)
                     {
                         throw new Exception();
                     }
-                    
+
                     rLogin = authQuery[0];
                     rPassword = authQuery[1];
 
@@ -92,7 +94,7 @@ while (httpListener.IsListening)
                         throw new Exception();
                     }
 
-                    if (await dbContext.GetUser(rLogin) != null) 
+                    if (await dbContext.GetUser(rLogin) != null)
                     {
                         response.StatusCode = 400;
                         response.ContentType = "text/plain";
@@ -103,7 +105,8 @@ while (httpListener.IsListening)
 
                     await dbContext.CreateUser(rLogin, PasswordHasher.Hash(rPassword));
                 }
-                catch {
+                catch
+                {
                     response.StatusCode = 403;
                     response.ContentType = "text/plain";
                     await response.OutputStream.WriteAsync(
@@ -130,7 +133,7 @@ while (httpListener.IsListening)
                     login = authQuery[0];
                     password = authQuery[1];
 
-                    if (login == "" || password == "") 
+                    if (login == "" || password == "")
                     {
                         throw new Exception();
                     }
@@ -147,7 +150,8 @@ while (httpListener.IsListening)
                                 Encoding.UTF8.GetBytes($"Succsessfully loged in as {login}"), ctx.Token);
                             break;
                         }
-                        else {
+                        else
+                        {
                             response.StatusCode = 400;
                             response.ContentType = "text/plain";
                             await response.OutputStream.WriteAsync(
@@ -163,7 +167,7 @@ while (httpListener.IsListening)
                     break;
 
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     response.StatusCode = 403;
                     response.ContentType = "text/plain";
@@ -178,26 +182,32 @@ while (httpListener.IsListening)
                 await response.OutputStream.WriteAsync(
                     Encoding.UTF8.GetBytes($"User table was cleared"), ctx.Token);
                 break;
-            default:
-                if (localPath?.StartsWith("/iiif/") ?? false)
+            case "/users" when request.HttpMethod == "GET":
+                await dbContext.GetAllUserIds();
+                response.StatusCode = 200;
+                response.ContentType = "text/plain";
+                await response.OutputStream.WriteAsync(
+                    Encoding.UTF8.GetBytes($"Check console"), ctx.Token);
+                break;
+            case "/iiif" when request.HttpMethod == "GET":
+                string id = "No query";
+                try
                 {
-                    var id = localPath.Split("/")[^1];
-                    try
-                    {
-                        using Stream requestStream = (await ImgAPI.GetPictureById(ctx.Token, id!)).Content.ReadAsStream();
-                        using Stream responseStream = response.OutputStream;
-                        await requestStream.CopyToAsync(responseStream);
-                        response.StatusCode = 200;
-                        response.ContentType = "image/jpg";
-                    }
-                    catch (Exception ex) 
-                    {
-                        Console.WriteLine(id + " : " + ex.Message);
-                        response.StatusCode = 404;
-                    }
-                    break;
-                }
+                    id = request.Url?.Query.Split("?")[^1] ?? throw new Exception();
 
+                    using Stream requestStream = (await ImgAPI.GetPictureById(id!, ctx.Token)).Content.ReadAsStream(ctx.Token);
+                    using Stream responseStream = response.OutputStream;
+                    await requestStream.CopyToAsync(responseStream, ctx.Token);
+                    response.StatusCode = 200;
+                    response.ContentType = "image/jpg";
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(id + " : " + ex.Message);
+                    response.StatusCode = 404;
+                }
+                break;
+            default:
                 await ShowResourseFile(context, ctx.Token);
                 break;
         }

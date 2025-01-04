@@ -30,15 +30,12 @@ C:\Users\meeuc\OneDrive\Desktop\uni\webProject\webProject\bin\Debug\net8.0\resou
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\webProject\bin\Debug\net8.0\resources\js\login.js
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\webProject\bin\Debug\net8.0\resources\js\register.js
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\webProject\bin\Debug\net8.0\resources\js\showSignIn.js
-C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\css\homePage.css
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\css\signIn.css
-C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\html\homePage.html
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\html\loginPage.html
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\html\registerPage.html
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\login.js
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\register.js
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\showSignIn.js
-C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\homePage.js
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\utilityFunctions.js
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\webProject.exe
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\webProject.deps.json
@@ -63,3 +60,7 @@ C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\obj\Debug\net8.0\
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\obj\Debug\net8.0\webProject.pdb
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\obj\Debug\net8.0\webProject.genruntimeconfig.cache
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\obj\Debug\net8.0\ref\webProject.dll
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\png\image.png
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\html\index.html
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\index.js
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\css\index.css

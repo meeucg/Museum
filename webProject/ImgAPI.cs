@@ -9,6 +9,7 @@ namespace webProject
 {
     public static class ImgAPI
     {
+        private static SemaphoreSlim semaphore = new SemaphoreSlim(2, 8);
         private static HttpClient _httpClient = new()
         {
             BaseAddress = new Uri("https://api.artic.edu/iiif/2"),
@@ -21,11 +22,17 @@ namespace webProject
 
         };
 
-        public static async Task<HttpResponseMessage> GetPictureById(CancellationToken ctx, string id) {
-            var res = await _httpClient.GetAsync($"https://www.artic.edu/iiif/2/{id}/full/900,/0/default.jpg");
+        public static async Task<HttpResponseMessage> GetPictureById(string id, CancellationToken ctx) {
+
+            await semaphore.WaitAsync(ctx);
+
+            var res = await _httpClient.GetAsync($"https://www.artic.edu/iiif/2/{id}/full/900,/0/default.jpg", ctx);
             if (res.StatusCode == HttpStatusCode.OK) {
+                semaphore.Release();
                 return res;
             }
+
+            semaphore.Release();
             throw new Exception("Image not found");
         }
     }

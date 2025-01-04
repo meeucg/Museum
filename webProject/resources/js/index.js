@@ -16,8 +16,6 @@ const all = document.querySelectorAll("*");
 const body = document.querySelector("body");
 const carouselContainer = document.querySelector(".center-container");
 const carousel = document.querySelector(".carousel-container");
-const leftBtn = document.querySelector("#left-btn");
-const rightBtn = document.querySelector("#right-btn");
 const search = document.querySelector(".search");
 const login = document.getElementById("login");
 const register = document.getElementById("register");
@@ -258,7 +256,7 @@ async function initMuseum(searchQuery) {
     let initFrame = async (resolveFun, rejectFun, frame) => {
         const getImageAndAddIt = async (onResolve, onReject) => {
             try {
-                const response = await fetch(`/iiif/${frame.imageId}`);
+                const response = await fetch(`/iiif?${frame.imageId}`);
                 if (response.ok) {
                     const arrayBuffer = await response.arrayBuffer();
                     const blob = new Blob([arrayBuffer], { type: 'image/jpeg' });
