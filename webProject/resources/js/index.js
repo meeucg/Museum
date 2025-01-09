@@ -1,4 +1,6 @@
 import { loginPage as loginPage, registerPage as registerPage } from '/showSignIn.js';
+import { ClassListContains, getDimensionsFromJpeg, SlowAppear, OffDrag, Hide } from '/utilityFunctions.js';
+import { setJwt, authFetch, getUserInfo } from '/userMethods.js';
 
 var vh;
 var vw;
@@ -19,6 +21,7 @@ const carousel = document.querySelector(".carousel-container");
 const search = document.querySelector(".search");
 const login = document.getElementById("login");
 const register = document.getElementById("register");
+const headerRight = document.querySelector(".right-header-container");
 
 const carouselSize = +getComputedStyle(document.documentElement).getPropertyValue('--carousel-size').slice(0, -2); //vh
 const gap = +getComputedStyle(document.documentElement).getPropertyValue('--gap').slice(0, -2); //vh
@@ -30,66 +33,6 @@ let maxOffset = 0; //vh
 
 function pxToVh(px = 0) {
     return px / vh * 100;
-}
-
-function getFirstElementPose(elements) {
-    return elements[0].getBoundingClientRect();
-}
-
-function ClassListContains(classList, name) {
-    let res = false;
-    classList.forEach((el) => {
-        if (el === name) {
-            res = true;
-            return;
-        }
-    });
-    return res;
-}
-
-function setCursor() {
-    body.style.cursor = 'pointer';
-}
-
-function Hide(element) {
-    element.style.opacity = '0';
-}
-
-function getDimensionsFromJpeg(arrayBuffer) { // honestly, ChatGPT
-    const dataView = new DataView(arrayBuffer);
-    let width = 0;
-    let height = 0;
-
-    let offset = 2;
-    while (offset < dataView.byteLength) {
-        const marker = dataView.getUint16(offset);
-        offset += 2;
-
-        if (marker >= 0xFFC0 && marker <= 0xFFC3) {
-            height = dataView.getUint16(offset + 3);
-            width = dataView.getUint16(offset + 5);
-            break;
-        } else {
-            offset += dataView.getUint16(offset);
-        }
-    }
-
-    return { widthJpeg: width, heightJpeg: height }
-}
-
-function Show(element) {
-    element.style.opacity = '1';
-}
-
-function SlowAppear(element) {
-    element.classList.add('appear');
-    element.addEventListener("animationend", () => {
-        Show(element);
-    }, { once: true });
-}
-
-function OffDrag(element) {
-    element.setAttribute("draggable", "false")
 }
 
 function createImage(imageUrl, aspectRatio = 1) {
@@ -376,6 +319,28 @@ class Museum {
 let currentMuseum = new Museum("Russia");
 currentMuseum.initMuseum();
 
+let auth = async () => {
+    const user = await getUserInfo();
+
+    if (user.ok) {
+        login.remove();
+        register.remove();
+        const profileBtn = document.createElement('div');
+        profileBtn.className = "rounded-btn-white";
+        profileBtn.textContent = "Profile";
+        profileBtn.addEventListener("click", () => {
+            window.location.href = "/profilePage.html";
+        })
+        headerRight.appendChild(profileBtn);
+        return;
+    }
+
+    const userData = await user.json();
+    alert(userData.error);
+};
+
+auth();
+
 let searchHandler = (ev) => {
     if (ev.key === 'Enter' && currentMuseum.cycleState == currentMuseum.states.Running || 
         currentMuseum.cycleState == currentMuseum.states.Finished) {
@@ -431,12 +396,34 @@ carouselContainer.addEventListener('touchstart', handleCarouselMoveTouch);
 carouselContainer.addEventListener('wheel', handleCarouselMoveWheel);
 
 login.addEventListener('click', () => {
-    let lPage = new loginPage(document);
+    let onExit = async (callback) => {
+        let user = await getUserInfo();
+        if (user.ok) {
+            callback();
+            let userData = await user.json();
+            alert(`Successfully logged as: ${userData.login}`);
+        }
+    }
+    let lPage = new registerPage(document, onExit(() => {
+        login.remove();
+        register.remove();
+    }));
     lPage.show();
 });
 
 register.addEventListener('click', () => {
-    let rPage = new registerPage(document);
+    let onExit = async (callback) => {
+        let user = await getUserInfo();
+        if (user.ok) {
+            callback();
+            let userData = await user.json();
+            alert(`Successfully logged as: ${userData.login}`);
+        }
+    }
+    let rPage = new registerPage(document, onExit(() => {
+        login.remove();
+        register.remove();
+    }));
     rPage.show();
 });
 

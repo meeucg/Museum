@@ -1,7 +1,10 @@
 ﻿using System.Collections.ObjectModel;
 using System.Data;
 using System.Net;
+using System.Text;
 using Npgsql;
+using webProject.Entities;
+using webProject.Models;
 
 namespace webProject;
 
@@ -10,25 +13,33 @@ public class DbContext
     private const string DbConnectionString = "Host=localhost;Port=5002;Username=admin;Password=20052005;Database=postgres";
     private readonly NpgsqlConnection _dbConnection = new(DbConnectionString);
 
-    public async Task<User> CreateUser(string login, string password, CancellationToken cancellationToken = default)
+    public async Task<User?> CreateUser(string login, string password, string username, CancellationToken cancellationToken = default)
     {
-        await _dbConnection.OpenAsync(cancellationToken);
         try
         {
-            const string sqlQuery = "INSERT INTO users (login, password, role) VALUES (@login, @password, @role) RETURNING id;";
+            await _dbConnection.OpenAsync(cancellationToken);
+
+            const string sqlQuery = "INSERT INTO users (login, password, role, username) VALUES (@login, @password, @role, @username) RETURNING id;";
             var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
             cmd.Parameters.AddWithValue("login", login);
             cmd.Parameters.AddWithValue("password", password);
             cmd.Parameters.AddWithValue("role", "user");
+            cmd.Parameters.AddWithValue("username", username);
             var result = await cmd.ExecuteScalarAsync(cancellationToken);
+
+            Console.WriteLine(result);
 
             return new User
             {
                 Login = login,
                 Password = password,
                 Id = Convert.ToInt32(result),
-                Role = "user"
+                Role = "user",
+                Username = username
             };
+        }
+        catch {
+            return null;
         }
         finally
         {
@@ -37,11 +48,12 @@ public class DbContext
     }
 
 
-    public async Task<User?> GetUser(string login, CancellationToken cancellationToken = default)
+    public async Task<User?> GetUserByLogin(string login, CancellationToken cancellationToken = default)
     {
-        await _dbConnection.OpenAsync(cancellationToken);
         try
         {
+            await _dbConnection.OpenAsync(cancellationToken);
+
             const string sqlQuery = "SELECT * FROM users WHERE login = @login";
             var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
             cmd.Parameters.AddWithValue("login", login);
@@ -54,8 +66,46 @@ public class DbContext
                     Login = login,
                     Password = reader.GetString("password"),
                     Role = reader.GetString("role"),
+                    Username = reader.GetString("username"),
                 };
             }
+        }
+        catch {
+            return null;
+        }
+        finally
+        {
+            await _dbConnection.CloseAsync();
+        }
+
+        return null;
+    }
+
+    public async Task<User?> GetUserById(long id, CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            await _dbConnection.OpenAsync(cancellationToken);
+
+            const string sqlQuery = "SELECT * FROM users WHERE id = @id";
+            var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
+            cmd.Parameters.AddWithValue("id", id);
+            var reader = await cmd.ExecuteReaderAsync(cancellationToken);
+            if (reader.HasRows && await reader.ReadAsync(cancellationToken))
+            {
+                return new User
+                {
+                    Id = id,
+                    Login = reader.GetString("login"),
+                    Password = reader.GetString("password"),
+                    Role = reader.GetString("role"),
+                    Username = reader.GetString("username"),
+                };
+            }
+        }
+        catch
+        {
+            return null;
         }
         finally
         {

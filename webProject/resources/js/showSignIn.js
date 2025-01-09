@@ -1,41 +1,23 @@
-function SlowAppear(element) {
-    element.classList.add('appear');
-    element.addEventListener("animationend", () => {
-        Show(element);
-    }, {once: true});
-}
-
-function Show(element) {
-    element.style.opacity = '1';
-}
-
-function ClassListContains(classList, name) {
-    let res = false;
-    classList.forEach((el) => {
-        if (el === name) {
-            res = true;
-            return;
-        }
-    });
-    return res;
-}
+import { SlowAppear, Show, ClassListContains } from '/utilityFunctions.js';
 
 class loginPage {
 
-    constructor(document) {
+    constructor(document, onExitCallback = () => { }) {
         this.loginFrame = document.createElement("iframe");
         this.loginFrame.className = "sign-in-frame";
         this.loginFrame.src = "/loginPage.html";
 
         this.document = document;
         this.body = document.querySelector("body");
+
+        this.onExitCallback = onExitCallback;
     }
 
     show() {
         let loginFrame = this.loginFrame;
         let document = this.document;
         let body = this.body;
-        
+
         body.insertBefore(loginFrame, body.firstChild);
 
         let wait = setTimeout(() => {
@@ -79,18 +61,21 @@ class loginPage {
 
     hide(){
         this.loginFrame.remove();
+        this.onExitCallback();
     }
 }
 
 class registerPage {
 
-    constructor(document) {
+    constructor(document, onExitCallback = () => { }) {
         this.registerFrame = document.createElement("iframe");
         this.registerFrame.className = "sign-in-frame";
         this.registerFrame.src = "/registerPage.html";
 
         this.document = document;
         this.body = document.querySelector("body");
+
+        this.onExitCallback = onExitCallback;
     }
 
     show() {
@@ -141,6 +126,7 @@ class registerPage {
 
     hide(){
         this.registerFrame.remove();
+        this.onExitCallback();
     }
 }
 

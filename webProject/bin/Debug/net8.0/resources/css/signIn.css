@@ -7,7 +7,8 @@
 }
 
     .default-form > input {
-        border: none;
+        border-color: transparent;
+        border-width: 3px;
         width: 100%;
         border-radius: inherit;
         box-sizing: border-box;
@@ -38,10 +39,15 @@
             color: grey;
             opacity: 50%;
         }
+        
     .default-form > button {
         border: none;
         height: auto;
     }
+
+.error-message {
+    color: #8C3420;
+}
 
 .span-href {
     color: #8C3420;

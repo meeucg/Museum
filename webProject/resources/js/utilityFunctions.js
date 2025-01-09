@@ -1,7 +1,3 @@
-function pxToVh(px=0) {
-    return px / vh * 100;
-}
-
 function getFirstElementPose(elements) {
     return elements[0].getBoundingClientRect();
 }
@@ -68,7 +64,7 @@ function OffDrag(element) {
     element.setAttribute("draggable", "false")
 }
 
-export {pxToVh, 
+export {
     getFirstElementPose, 
     ClassListContains, 
     asyncForEach, 
@@ -77,4 +73,5 @@ export {pxToVh,
     getDimensionsFromJpeg, 
     Show, 
     SlowAppear, 
-    OffDrag};
+    OffDrag
+};

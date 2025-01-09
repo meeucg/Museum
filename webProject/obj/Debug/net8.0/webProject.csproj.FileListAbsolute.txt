@@ -64,3 +64,9 @@ C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\html\index.html
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\index.js
 C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\css\index.css
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\userMethods.js
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\html\profilePage.html
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\svg\arrow_back.svg
+C:\Users\meeuc\OneDrive\Desktop\uni\webProject\Code\webProject\bin\Debug\net8.0\resources\js\profile.js

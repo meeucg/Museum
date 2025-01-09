@@ -9,20 +9,21 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <script defer type="module" src="/register.js"></script>
-        <title>Museum, Sign-in</title>
+        <title>Museuonline, Register</title>
     </head>
     <body style="background-color: rgba(0,0,0,0.2); background-image: none;">
         <div style="height: 100vh; width: 100vw;" class="center-container">
-            <div style="min-height: 60%; aspect-ratio: 0.8; overflow: auto;" class="default-container">
+            <div style="min-height: 60%; width: 400px; overflow: auto;" class="default-container">
                 <div class="text-title" style="align-self: center">
                     Sign in
                 </div>
                 <form class="default-form" style="margin-top: 2em">
-                    <input type="text" placeholder="Email" class="text-primary"/>
-                    <input type="password" placeholder="Password" class="text-primary"/>
-                    <input type="password" placeholder="Repeat password" class="text-primary"/>
-                    <button class="text-primary rounded-btn-white">Register</button>
+                    <input type="text" id="email" placeholder="Email" class="text-primary"/>
+                    <input type="password" id="password1" placeholder="Password"  class="text-primary"/>
+                    <input type="password" id="password2" placeholder="Repeat password" class="text-primary"/>
+                    <button class="text-primary rounded-btn-white" id="submit">Register</button>
                 </form>
+                <a id="errorMessage" class="error-message"></a>
                 <div style="flex: 1; display: flex; flex-direction: column-reverse;">
                     <a class="text-primary" style="position: relative; align-self: center;">Already registered? <span class="span-href">Login</span></a>
                 </div>
