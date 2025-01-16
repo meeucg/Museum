@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<header>
+    <div class="top-navbar" style="z-index: 3;">
+        <div class="left-header-container">
+            <div style="padding: 0.5em;" class="rounded-btn-white" id="back-button">
+                <img src="/arrow_back.svg" alt="Go back">
+            </div>
+        </div>
+        {{#if edit}}
+            <div class="right-header-container">
+                <div class="rounded-btn-white" id="register">Change user</div>
+            </div>
+        {{/if}}
+    </div>
+</header>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/index.css" rel="stylesheet">
+    <link href="/profile.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer type="module" src="/profile.js"></script>
+    <title>Museonline, Profile</title>
+</head>
+<body>
+    <div id="profile-container" style="padding-top: 100px; padding-bottom: 75px; background: transparent;">
+        {{#if banner}}
+            <div class="profile-banner" style="background-image: url({{banner}}) !important;"></div>
+        {{else}}
+            <div class="profile-banner"></div>
+        {{/if}}
+        <div class="user-info-container">
+            {{#if avatar}}
+                <img class="profile-icon" src="{{avatar}}"/>
+            {{else}}
+                <div class="center-container profile-icon">{{avatarLetter}}</div>
+            {{/if}}
+            <a style="padding-top: 1em; font-size: 2em; user-select: text;">{{username}}</a>
+            <a style="font-size: 1em; color: dimgray; user-select: text;">{{email}}</a>
+            <a style="padding-top: 2em; font-size: 1em; color: dimgray; user-select: text;">Subscribers: 5</a>
+            
+            {{#if edit}}
+                <div class="vertical-select-container">
+                    <div id="share" class="rounded-btn-white" style="width: 100px;">Share</div>
+                    <div id="edit" class="rounded-btn-white" style="width: 100px;">Edit</div>
+                </div>
+            {{/if}}
+        </div>
+    </div>
+    <div style="background-color: #F2F2EB; width: 100%; height: fit-content; z-index: 1; align-items: center; display: flex; flex-direction: column;">
+        <div class="vertical-select-container">
+            <div class="rounded-btn-white" style="width: 100px;">Created</div>
+            <div class="rounded-btn-white" style="width: 100px;">Saved</div>
+        </div>
+        <div class="collections-grid">
+            {{#each collections}}
+                <div class="collection-container" style="height: fit-content; width: 300px;">
+                    <div class="collection-view">
+                        <div style="background-color: dimgray"></div>
+                        <div style="background-color: dimgray"></div>
+                        <div style="background-color: dimgray"></div>
+                    </div>
+                    <a class="text-primary-bold" style="word-wrap: break-word;">{{this.name}}</a>
+                    <a class="text-secondary" style="word-wrap: break-word;">{{this.description}}</a>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</body>
+</html>

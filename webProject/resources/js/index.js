@@ -1,4 +1,4 @@
-import { loginPage as loginPage, registerPage as registerPage } from '/showSignIn.js';
+import { headerFrame } from '/showFrame.js';
 import { ClassListContains, getDimensionsFromJpeg, SlowAppear, OffDrag, Hide } from '/utilityFunctions.js';
 import { setJwt, authFetch, getUserInfo } from '/userMethods.js';
 
@@ -319,19 +319,33 @@ class Museum {
 let currentMuseum = new Museum("Russia");
 currentMuseum.initMuseum();
 
+let initProfileBtn = () => {
+    const profileBtn = document.createElement('div');
+    const text = document.createElement('div');
+    const profileIcon = document.createElement('img');
+
+    text.textContent = "Profile";
+    profileIcon.src = "/account_circle.svg";
+    profileIcon.style.paddingLeft = "0.5em";
+
+    profileBtn.className = "rounded-btn-white";
+    profileBtn.appendChild(text);
+    profileBtn.appendChild(profileIcon);
+
+    profileBtn.addEventListener("click", () => {
+        window.location.href = "/profilePage.html";
+    });
+
+    headerRight.appendChild(profileBtn);
+}
+
 let auth = async () => {
     const user = await getUserInfo();
 
     if (user.ok) {
         login.remove();
         register.remove();
-        const profileBtn = document.createElement('div');
-        profileBtn.className = "rounded-btn-white";
-        profileBtn.textContent = "Profile";
-        profileBtn.addEventListener("click", () => {
-            window.location.href = "/profilePage.html";
-        })
-        headerRight.appendChild(profileBtn);
+        initProfileBtn();
         return;
     }
 
@@ -396,33 +410,39 @@ carouselContainer.addEventListener('touchstart', handleCarouselMoveTouch);
 carouselContainer.addEventListener('wheel', handleCarouselMoveWheel);
 
 login.addEventListener('click', () => {
-    let onExit = async (callback) => {
-        let user = await getUserInfo();
-        if (user.ok) {
-            callback();
-            let userData = await user.json();
-            alert(`Successfully logged as: ${userData.login}`);
+    let onExit = (callback) => {
+        return async () => {
+            let user = await getUserInfo();
+            if (user.ok) {
+                callback();
+                let userData = await user.json();
+                alert(`Successfully logged as: ${userData.login}`);
+            }
         }
     }
-    let lPage = new registerPage(document, onExit(() => {
+    let lPage = new headerFrame(document, "/loginPage.html", onExit(() => {
         login.remove();
         register.remove();
+        initProfileBtn();
     }));
     lPage.show();
 });
 
 register.addEventListener('click', () => {
-    let onExit = async (callback) => {
-        let user = await getUserInfo();
-        if (user.ok) {
-            callback();
-            let userData = await user.json();
-            alert(`Successfully logged as: ${userData.login}`);
+    let onExit = (callback) => {
+        return async () => {
+            let user = await getUserInfo();
+            if (user.ok) {
+                callback();
+                let userData = await user.json();
+                alert(`Successfully logged as: ${userData.login}`);
+            }
         }
     }
-    let rPage = new registerPage(document, onExit(() => {
+    let rPage = new headerFrame(document, "/registerPage.html", onExit(() => {
         login.remove();
         register.remove();
+        initProfileBtn();
     }));
     rPage.show();
 });

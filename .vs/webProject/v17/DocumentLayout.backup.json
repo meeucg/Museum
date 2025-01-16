@@ -3,8 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\example.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\example.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\miniomuseum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\miniomuseum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\usermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\usermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\imgapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\imgapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\usermethods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\usermethods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\showframe.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\showframe.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\hbs\\profiletemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\hbs\\profiletemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\artobjectclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\artobjectclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\entities\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\entities\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\profilepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\profilepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\editprofile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\editprofile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\css\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\loginpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\loginpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -15,64 +91,40 @@
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\showsignin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\showsignin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\registerpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\registerpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\utilityfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\utilityfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\loginpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\loginpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\signin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\css\\signin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\usermethods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\usermethods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\utilityfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\utilityfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\svg\\account_circle.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\svg\\account_circle.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\jwtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\jwtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\imgapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\imgapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\artapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\artapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\profilepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\profilepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\errormessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\errormessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\webproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -87,32 +139,12 @@
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\uservalidationrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\registerpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\registerpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\artobjectclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\artobjectclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -132,219 +164,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "example.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\example.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\example.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\example.html",
+              "RelativeToolTip": "webProject\\resources\\html\\example.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-15T22:33:19.966Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\index.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\index.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\index.js*",
-              "RelativeToolTip": "webProject\\resources\\js\\index.js*",
-              "ViewState": "AgIAADsBAAAAAAAAAAAiwEkBAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-14T22:09:06.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\index.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\index.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\index.html",
-              "RelativeToolTip": "webProject\\resources\\html\\index.html",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-14T22:06:12.496Z",
+              "Title": "MinioMuseum.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\MinioMuseum.cs",
+              "RelativeDocumentMoniker": "webProject\\MinioMuseum.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\MinioMuseum.cs",
+              "RelativeToolTip": "webProject\\MinioMuseum.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwEcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:12:14.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "profile.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\profile.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\profile.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\profile.js",
-              "RelativeToolTip": "webProject\\resources\\js\\profile.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-09T14:35:19.993Z",
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "profile.css",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\profile.css",
+              "RelativeDocumentMoniker": "webProject\\resources\\css\\profile.css",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\profile.css",
+              "RelativeToolTip": "webProject\\resources\\css\\profile.css",
+              "ViewState": "AgIAADkAAAAAAAAAAIBJwEwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-09T21:42:29.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "login.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\login.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\login.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\login.js",
-              "RelativeToolTip": "webProject\\resources\\js\\login.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-07T18:46:19.845Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "ArtObjectClasses.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtObjectClasses.cs",
+              "RelativeDocumentMoniker": "webProject\\ArtObjectClasses.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtObjectClasses.cs",
+              "RelativeToolTip": "webProject\\ArtObjectClasses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:56:14.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "userMethods.js",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\userMethods.js",
               "RelativeDocumentMoniker": "webProject\\resources\\js\\userMethods.js",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\userMethods.js",
               "RelativeToolTip": "webProject\\resources\\js\\userMethods.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-08T21:05:26.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ArtAPI.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtAPI.cs",
-              "RelativeDocumentMoniker": "webProject\\ArtAPI.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtAPI.cs",
-              "RelativeToolTip": "webProject\\ArtAPI.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwC8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T12:06:29.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ErrorMessageModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ErrorMessageModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\ErrorMessageModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ErrorMessageModel.cs",
-              "RelativeToolTip": "webProject\\models\\ErrorMessageModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T15:59:43.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "register.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\register.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\register.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\register.js",
-              "RelativeToolTip": "webProject\\resources\\js\\register.js",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAkwAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-07T18:46:22.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "loginPage.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\loginPage.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\loginPage.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\loginPage.html",
-              "RelativeToolTip": "webProject\\resources\\html\\loginPage.html",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-07T19:26:31.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "signIn.css",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\signIn.css",
-              "RelativeDocumentMoniker": "webProject\\resources\\css\\signIn.css",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\signIn.css",
-              "RelativeToolTip": "webProject\\resources\\css\\signIn.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-07T19:28:08.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "showSignIn.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\showSignIn.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\showSignIn.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\showSignIn.js",
-              "RelativeToolTip": "webProject\\resources\\js\\showSignIn.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-07T19:21:29.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T21:05:26.498Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\index.css",
-              "RelativeDocumentMoniker": "webProject\\resources\\css\\index.css",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\index.css",
-              "RelativeToolTip": "webProject\\resources\\css\\index.css",
-              "ViewState": "AgIAANoAAAAAAAAAAAAkwOQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-14T22:07:12.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\Program.cs",
               "RelativeDocumentMoniker": "webProject\\Program.cs",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\Program.cs",
               "RelativeToolTip": "webProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAswBQBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T21:46:55.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "JwtWorker.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\JwtWorker.cs",
-              "RelativeDocumentMoniker": "webProject\\JwtWorker.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\JwtWorker.cs",
-              "RelativeToolTip": "webProject\\JwtWorker.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAUAAAATAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UserMethods.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserMethods.cs",
+              "RelativeDocumentMoniker": "webProject\\UserMethods.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserMethods.cs",
+              "RelativeToolTip": "webProject\\UserMethods.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAYwLQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T21:37:38.703Z",
+              "WhenOpened": "2025-01-11T20:07:34.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "ImgAPI.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ImgAPI.cs",
               "RelativeDocumentMoniker": "webProject\\ImgAPI.cs",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ImgAPI.cs",
               "RelativeToolTip": "webProject\\ImgAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T12:06:56.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "utilityFunctions.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\utilityFunctions.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\utilityFunctions.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\utilityFunctions.js",
-              "RelativeToolTip": "webProject\\resources\\js\\utilityFunctions.js",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-08T21:53:52.414Z",
-              "EditorCaption": ""
+              "DocumentIndex": 17,
+              "Title": "editProfile.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\editProfile.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\editProfile.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\editProfile.html",
+              "RelativeToolTip": "webProject\\resources\\html\\editProfile.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-13T18:32:15.433Z"
             },
             {
               "$type": "Document",
@@ -354,27 +291,265 @@
               "RelativeDocumentMoniker": "webProject\\DbContext.cs",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\DbContext.cs",
               "RelativeToolTip": "webProject\\DbContext.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAkwGUAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwIgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T13:52:57.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T13:52:57.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "profile.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\profile.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\profile.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\profile.js",
+              "RelativeToolTip": "webProject\\resources\\js\\profile.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-09T14:35:19.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\index.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\index.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\index.js",
+              "RelativeToolTip": "webProject\\resources\\js\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-14T22:09:06.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "profileTemplate.hbs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\profileTemplate.hbs",
+              "RelativeDocumentMoniker": "webProject\\resources\\hbs\\profileTemplate.hbs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\profileTemplate.hbs",
+              "RelativeToolTip": "webProject\\resources\\hbs\\profileTemplate.hbs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-13T19:58:07.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "showFrame.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\showFrame.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\showFrame.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\showFrame.js",
+              "RelativeToolTip": "webProject\\resources\\js\\showFrame.js",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-07T19:21:29.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\UserLoginModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserLoginModel.cs",
+              "RelativeToolTip": "webProject\\models\\UserLoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T22:10:29.384Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "UserInfoModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserInfoModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\UserInfoModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserInfoModel.cs",
+              "RelativeToolTip": "webProject\\models\\UserInfoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:29:00.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "profilePage.html",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\profilePage.html",
               "RelativeDocumentMoniker": "webProject\\resources\\html\\profilePage.html",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\profilePage.html",
               "RelativeToolTip": "webProject\\resources\\html\\profilePage.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwCsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-09T12:52:15.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T12:52:15.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Collection.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Collection.cs",
+              "RelativeDocumentMoniker": "webProject\\entities\\Collection.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Collection.cs",
+              "RelativeToolTip": "webProject\\entities\\Collection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T22:25:09.42Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\index.css",
+              "RelativeDocumentMoniker": "webProject\\resources\\css\\index.css",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\index.css",
+              "RelativeToolTip": "webProject\\resources\\css\\index.css",
+              "ViewState": "AgIAAHoAAAAAAAAAAIBJwBUBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-14T22:07:12.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ArtAPI.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtAPI.cs",
+              "RelativeDocumentMoniker": "webProject\\ArtAPI.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtAPI.cs",
+              "RelativeToolTip": "webProject\\ArtAPI.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwC8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:06:29.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "utilityFunctions.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\utilityFunctions.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\utilityFunctions.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\utilityFunctions.js",
+              "RelativeToolTip": "webProject\\resources\\js\\utilityFunctions.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-08T21:53:52.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "loginPage.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\loginPage.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\loginPage.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\loginPage.html",
+              "RelativeToolTip": "webProject\\resources\\html\\loginPage.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-07T19:26:31.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "forms.css",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\forms.css",
+              "RelativeDocumentMoniker": "webProject\\resources\\css\\forms.css",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\forms.css",
+              "RelativeToolTip": "webProject\\resources\\css\\forms.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-07T19:28:08.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\index.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\index.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\index.html",
+              "RelativeToolTip": "webProject\\resources\\html\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-14T22:06:12.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "registerPage.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\registerPage.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\registerPage.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\registerPage.html",
+              "RelativeToolTip": "webProject\\resources\\html\\registerPage.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-07T19:09:22.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "register.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\register.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\register.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\register.js",
+              "RelativeToolTip": "webProject\\resources\\js\\register.js",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAkwAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-07T18:46:22.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "login.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\login.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\login.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\login.js",
+              "RelativeToolTip": "webProject\\resources\\js\\login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-07T18:46:19.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\User.cs",
+              "RelativeDocumentMoniker": "webProject\\entities\\User.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\User.cs",
+              "RelativeToolTip": "webProject\\entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:28:42.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "account_circle.svg",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\account_circle.svg",
+              "RelativeDocumentMoniker": "webProject\\resources\\svg\\account_circle.svg",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\account_circle.svg",
+              "RelativeToolTip": "webProject\\resources\\svg\\account_circle.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-09T22:12:28.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ErrorMessageModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ErrorMessageModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\ErrorMessageModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ErrorMessageModel.cs",
+              "RelativeToolTip": "webProject\\models\\ErrorMessageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:59:43.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JwtWorker.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\JwtWorker.cs",
+              "RelativeDocumentMoniker": "webProject\\JwtWorker.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\JwtWorker.cs",
+              "RelativeToolTip": "webProject\\JwtWorker.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T21:37:38.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "UserValidationRules.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserValidationRules.cs",
               "RelativeDocumentMoniker": "webProject\\UserValidationRules.cs",
@@ -382,12 +557,11 @@
               "RelativeToolTip": "webProject\\UserValidationRules.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:57:08.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T22:57:08.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "arrow_back.svg",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\arrow_back.svg",
               "RelativeDocumentMoniker": "webProject\\resources\\svg\\arrow_back.svg",
@@ -395,64 +569,23 @@
               "RelativeToolTip": "webProject\\resources\\svg\\arrow_back.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-09T14:26:12.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T14:26:12.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "webProject.csproj",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\webProject.csproj",
               "RelativeDocumentMoniker": "webProject\\webProject.csproj",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\webProject.csproj",
               "RelativeToolTip": "webProject\\webProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-14T21:47:26.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T21:47:26.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "registerPage.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\registerPage.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\registerPage.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\registerPage.html",
-              "RelativeToolTip": "webProject\\resources\\html\\registerPage.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-07T19:09:22.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserLoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserLoginModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\UserLoginModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserLoginModel.cs",
-              "RelativeToolTip": "webProject\\models\\UserLoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:10:29.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserInfoModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserInfoModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\UserInfoModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserInfoModel.cs",
-              "RelativeToolTip": "webProject\\models\\UserInfoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T22:29:00.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "UserValidator.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserValidator.cs",
               "RelativeDocumentMoniker": "webProject\\UserValidator.cs",
@@ -460,12 +593,11 @@
               "RelativeToolTip": "webProject\\UserValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:57:24.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T22:57:24.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "webProject\\PasswordHasher.cs",
@@ -473,38 +605,11 @@
               "RelativeToolTip": "webProject\\PasswordHasher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T12:27:41.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-20T12:27:41.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ArtObjectClasses.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtObjectClasses.cs",
-              "RelativeDocumentMoniker": "webProject\\ArtObjectClasses.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtObjectClasses.cs",
-              "RelativeToolTip": "webProject\\ArtObjectClasses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:56:14.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\User.cs",
-              "RelativeDocumentMoniker": "webProject\\entities\\User.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\User.cs",
-              "RelativeToolTip": "webProject\\entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T22:28:42.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "AuthResult.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\AuthResult.cs",
               "RelativeDocumentMoniker": "webProject\\models\\AuthResult.cs",
@@ -512,12 +617,11 @@
               "RelativeToolTip": "webProject\\models\\AuthResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:10:07.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T22:10:07.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -525,12 +629,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAIETAAAAAAAAAAAIwKoTAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-19T09:39:08.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T09:39:08.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "signInPage.html",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\webProject\\resources\\html\\signInPage.html",
               "RelativeDocumentMoniker": "..\\webProject\\resources\\html\\signInPage.html",

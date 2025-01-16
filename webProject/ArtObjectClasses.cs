@@ -19,14 +19,14 @@ namespace webProject
     public class ApiResponceSingle
     {
         public Art Data { get; set; }
-        public ResponceInfo Info { get; set; }
-        public Config Config { get; set; }
+        public ResponceInfo? Info { get; set; }
+        public Config? Config { get; set; }
     }
     public class ApiResponceMultiple
     {
         public List<Art> Data { get; set; }
-        public ResponceInfo Info { get; set; }
-        public Config Config { get; set; }
+        public ResponceInfo? Info { get; set; }
+        public Config? Config { get; set; }
     }
     public class Art
     {

@@ -8,12 +8,12 @@ using webProject.Models;
 
 namespace webProject;
 
-public class DbContext
+public static class DbContext
 {
     private const string DbConnectionString = "Host=localhost;Port=5002;Username=admin;Password=20052005;Database=postgres";
-    private readonly NpgsqlConnection _dbConnection = new(DbConnectionString);
+    private static readonly NpgsqlConnection _dbConnection = new(DbConnectionString);
 
-    public async Task<User?> CreateUser(string login, string password, string username, CancellationToken cancellationToken = default)
+    public static async Task<User?> CreateUser(string login, string password, string username, CancellationToken cancellationToken = default)
     {
         try
         {
@@ -48,7 +48,7 @@ public class DbContext
     }
 
 
-    public async Task<User?> GetUserByLogin(string login, CancellationToken cancellationToken = default)
+    public static async Task<User?> GetUserByLogin(string login, CancellationToken cancellationToken = default)
     {
         try
         {
@@ -81,7 +81,7 @@ public class DbContext
         return null;
     }
 
-    public async Task<User?> GetUserById(long id, CancellationToken cancellationToken = default)
+    public static async Task<User?> GetUserById(long id, CancellationToken cancellationToken = default)
     {
         try
         {
@@ -115,7 +115,7 @@ public class DbContext
         return null;
     }
 
-    public async Task<bool> DeleteAllUsers(CancellationToken cancellationToken = default) {
+    public static async Task<bool> DeleteAllUsers(CancellationToken cancellationToken = default) {
         await _dbConnection.OpenAsync(cancellationToken);
         try
         {
@@ -134,7 +134,7 @@ public class DbContext
         }
     }
 
-    public async Task<bool> GetAllUserIds(CancellationToken cancellationToken = default) {
+    public static async Task<bool> GetAllUserIds(CancellationToken cancellationToken = default) {
         await _dbConnection.OpenAsync(cancellationToken);
         List<int> ids = new List<int>();
         try
