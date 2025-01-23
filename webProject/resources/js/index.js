@@ -1,9 +1,11 @@
 import { headerFrame } from '/showFrame.js';
 import { ClassListContains, getDimensionsFromJpeg, SlowAppear, OffDrag, Hide } from '/utilityFunctions.js';
-import { setJwt, authFetch, getUserInfo } from '/userMethods.js';
+import { alertPage, checkAuth, getApiLikes, getUserInfo } from '/userMethods.js';
 
 var vh;
 var vw;
+var isAuthorized = false;
+var apiLikes = [];
 
 function updateViewportDimensions() {
     vh = window.innerHeight;
@@ -60,9 +62,29 @@ function createFrame(imageObj, title, artist) {
     artistObj.className = "text-secondary";
     artistObj.textContent = `${artist}`;
 
-    text.appendChild(titleObj);
-    text.appendChild(artistObj);
+    if (isAuthorized == true) {
+        let likeButton = document.createElement('div');
+        likeButton.className = "like-button";
+        likeButton.id = "like";
 
+        let plusButton = document.createElement('div');
+        plusButton.className = "plus-button";
+        plusButton.id = "plus";
+
+        let buttonContainer = document.createElement('div');
+        buttonContainer.className = "button-container";
+
+        buttonContainer.appendChild(likeButton);
+        buttonContainer.appendChild(plusButton);
+
+        text.appendChild(titleObj);
+        text.appendChild(artistObj);
+        text.appendChild(buttonContainer);
+    } else {
+        text.appendChild(titleObj);
+        text.appendChild(artistObj);
+    }
+    
     frame.appendChild(imageObj);
     frame.appendChild(text);
 
@@ -98,6 +120,8 @@ class Museum {
         this.elements = [];
         this.elementSizes = [];
         this.elementsPositions = [];
+
+        this.frames = [];
         this.currentFrame = undefined;
 
         this.controller = new AbortController();
@@ -133,9 +157,44 @@ class Museum {
         this.query = query;
     }
 
+    updateLikeButtons() {
+        let frameObjs = document.querySelectorAll(".carousel-container > .image-container");
+        frameObjs.forEach((frameObj) => {
+            let text = frameObj.querySelector("#text");
+            let pictureId = this.frames[+frameObj.id].id;
+            if (text.querySelector(".button-container") == undefined) {
+                let likeButton = document.createElement('div');
+                if (apiLikes.includes(pictureId)) {
+                    likeButton.className = "like-button-active";
+                }
+                else {
+                    likeButton.className = "like-button";
+                }
+                likeButton.id = "like";
+
+                let plusButton = document.createElement('div');
+                plusButton.className = "plus-button";
+                plusButton.id = "plus";
+
+                let buttonContainer = document.createElement('div');
+                buttonContainer.className = "button-container";
+
+                buttonContainer.appendChild(likeButton);
+                buttonContainer.appendChild(plusButton);
+
+                text.appendChild(buttonContainer);
+            } else {
+                if (apiLikes.includes(pictureId)) {
+                    let likeButton = text.querySelector(".button-container > #like");
+                    likeButton.className = "like-button-active";
+                }
+            }
+        });
+    }
+
     async initMuseum() {
-        const frames = await this.searchFrames(this.query);
-        if(frames === undefined){
+        this.frames = await this.searchFrames(this.query);
+        if(this.frames === undefined){
             return;
         }
 
@@ -153,6 +212,7 @@ class Museum {
         let elementSizes = this.elementSizes;
         let elementsPositions = this.elementsPositions;
         let currentFrame = this.currentFrame;
+        let frames = this.frames;
 
         function align(width, height) { //vh, without padding
             document.documentElement.style.setProperty('--align-x', `-${0.5 * (carouselSize + 2 * frameMargin) * (width + 2 * frameMargin) / (height + 2 * frameMargin)}vh`);
@@ -174,11 +234,16 @@ class Museum {
                 const frameObj = createFrame(
                     createImage(imageObjectURL, width / height),
                     frame.title,
-                    frame.artistDisplay + "|" + frame.dateDisplay
+                    frame.artistDisplay + " | " + frame.dateDisplay
                 );
 
                 let id = elements.length;
                 frameObj.id = `${id}`;
+                let pictureId = frames[+frameObj.id].id;
+                if (apiLikes.includes(pictureId)) {
+                    let likeButton = frameObj.querySelector("#text > .button-container > #like");
+                    likeButton.className = "like-button-active";
+                }
 
                 elementSizes.push({ width: width, height: height });
 
@@ -215,6 +280,41 @@ class Museum {
                     };
 
                     if (ClassListContains(info.classList, "frame-info-show")) {
+                        if (ev.target.id == "like") {
+                            if (ClassListContains(ev.target.classList, "like-button")) {
+                                fetch("/likeartic", {
+                                    method: "POST",
+                                    body: JSON.stringify(
+                                        {
+                                            id: +frames[+frameObj.id].id
+                                        }
+                                    )
+                                }).then(res => {
+                                    if (res.ok) {
+                                        ev.target.className = "like-button-active";
+                                    }
+                                });
+                                return;
+                            } else {
+                                fetch("/dislikeartic", {
+                                    method: "POST",
+                                    body: JSON.stringify(
+                                        {
+                                            id: +frames[+frameObj.id].id
+                                        }
+                                    )
+                                }).then(res => {
+                                    if (res.ok) {
+                                        ev.target.className = "like-button";
+                                    }
+                                });
+                                return;
+                            }
+                            
+                        } else if (ev.target.id == "plus") {
+                            return;
+                        }
+
                         if (currentFrame === frameObj &&
                             Math.abs(Math.abs(totalOffset) - Math.abs(currentPos)) > 10) {
                             transitionToId();
@@ -316,10 +416,12 @@ class Museum {
     }
 }
 
+
 let currentMuseum = new Museum("Russia");
 currentMuseum.initMuseum();
 
-let initProfileBtn = () => {
+
+let initProfileBtn = async () => {
     const profileBtn = document.createElement('div');
     const text = document.createElement('div');
     const profileIcon = document.createElement('img');
@@ -332,25 +434,33 @@ let initProfileBtn = () => {
     profileBtn.appendChild(text);
     profileBtn.appendChild(profileIcon);
 
+    let user = await getUserInfo();
+    let userId = user.body.id;
+
     profileBtn.addEventListener("click", () => {
-        window.location.href = "/profilePage.html";
+        window.location.href = `/profile?id=${userId}`;
     });
 
     headerRight.appendChild(profileBtn);
 }
 
 let auth = async () => {
-    const user = await getUserInfo();
+    const user = await checkAuth();
 
     if (user.ok) {
         login.remove();
         register.remove();
-        initProfileBtn();
+        await initProfileBtn();
+        let likes = await getApiLikes();
+        if (likes.ok) {
+            apiLikes = likes.body;
+        }
+        isAuthorized = true;
+        currentMuseum.updateLikeButtons();
         return;
     }
 
-    const userData = await user.json();
-    alert(userData.error);
+    alertPage(document, user.body.error);
 };
 
 auth();
@@ -410,40 +520,12 @@ carouselContainer.addEventListener('touchstart', handleCarouselMoveTouch);
 carouselContainer.addEventListener('wheel', handleCarouselMoveWheel);
 
 login.addEventListener('click', () => {
-    let onExit = (callback) => {
-        return async () => {
-            let user = await getUserInfo();
-            if (user.ok) {
-                callback();
-                let userData = await user.json();
-                alert(`Successfully logged as: ${userData.login}`);
-            }
-        }
-    }
-    let lPage = new headerFrame(document, "/loginPage.html", onExit(() => {
-        login.remove();
-        register.remove();
-        initProfileBtn();
-    }));
+    let lPage = new headerFrame(document, "/loginPage.html", auth);
     lPage.show();
 });
 
 register.addEventListener('click', () => {
-    let onExit = (callback) => {
-        return async () => {
-            let user = await getUserInfo();
-            if (user.ok) {
-                callback();
-                let userData = await user.json();
-                alert(`Successfully logged as: ${userData.login}`);
-            }
-        }
-    }
-    let rPage = new headerFrame(document, "/registerPage.html", onExit(() => {
-        login.remove();
-        register.remove();
-        initProfileBtn();
-    }));
+    let rPage = new headerFrame(document, "/registerPage.html", auth);
     rPage.show();
 });
 

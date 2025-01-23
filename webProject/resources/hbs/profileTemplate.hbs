@@ -4,12 +4,13 @@
     <div class="top-navbar" style="z-index: 3;">
         <div class="left-header-container">
             <div style="padding: 0.5em;" class="rounded-btn-white" id="back-button">
-                <img src="/arrow_back.svg" alt="Go back">
+                <img src="/home_outline.svg" alt="Go back">
             </div>
         </div>
         {{#if edit}}
             <div class="right-header-container">
                 <div class="rounded-btn-white" id="register">Change user</div>
+                <div class="rounded-btn-black" id="exit">Exit</div>
             </div>
         {{/if}}
     </div>
@@ -31,13 +32,13 @@
 <body>
     <div id="profile-container" style="padding-top: 100px; padding-bottom: 75px; background: transparent;">
         {{#if banner}}
-            <div class="profile-banner" style="background-image: url({{banner}}) !important;"></div>
+            <div class="profile-banner" style="background-image: url('{{banner}}') !important;"></div>
         {{else}}
             <div class="profile-banner"></div>
         {{/if}}
         <div class="user-info-container">
             {{#if avatar}}
-                <img class="profile-icon" src="{{avatar}}"/>
+                <img class="profile-icon" src='{{avatar}}'/>
             {{else}}
                 <div class="center-container profile-icon">{{avatarLetter}}</div>
             {{/if}}
@@ -55,21 +56,54 @@
     </div>
     <div style="background-color: #F2F2EB; width: 100%; height: fit-content; z-index: 1; align-items: center; display: flex; flex-direction: column;">
         <div class="vertical-select-container">
-            <div class="rounded-btn-white" style="width: 100px;">Created</div>
-            <div class="rounded-btn-white" style="width: 100px;">Saved</div>
+            <div id="saved" class="rounded-btn-white" style="width: 100px;">Saved</div>
+            <div id="created" class="rounded-btn-white" style="width: 100px;">Created</div>
         </div>
-        <div class="collections-grid">
-            {{#each collections}}
-                <div class="collection-container" style="height: fit-content; width: 300px;">
-                    <div class="collection-view">
-                        <div style="background-color: dimgray"></div>
-                        <div style="background-color: dimgray"></div>
-                        <div style="background-color: dimgray"></div>
+        <div id="move" style="width: 200vw; height: fit-content; display: flex; flex-direction: row; translate: 50vw 0px; transition: translate 300ms ease-in-out">
+            <div style="width: 100vw; display: flex; flex-direction: row; justify-content: center;">
+                <div id="saved-grid" class="collections-grid">
+                    {{#each collections}}
+                    <div id="{{this.id}}" class="collection-container" style="height: fit-content; width: 300px;">
+                        <div class="collection-view">
+                            <div style="background-image: url('{{this.previewimages.[0]}}');"></div>
+                            <div style="background-image: url('{{this.previewimages.[1]}}');"></div>
+                            <div style="background-image: url('{{this.previewimages.[2]}}');"></div>
+                        </div>
+                        <a class="text-primary-bold" style="word-wrap: break-word;">{{this.name}}</a>
+                        <a class="text-secondary" style="word-wrap: break-word;">{{this.description}}</a>
                     </div>
-                    <a class="text-primary-bold" style="word-wrap: break-word;">{{this.name}}</a>
-                    <a class="text-secondary" style="word-wrap: break-word;">{{this.description}}</a>
+                    {{/each}}
+                    {{#if edit}}
+                    <div class="collection-container" id="add" style="width: 300px">
+                        <div class="center-container" style="width: 100%; height: 100%;">
+                            <div style="height: 50px; aspect-ratio: 1; background-image: url('/plus_thick.svg'); background-size: cover; background-repeat: no-repeat; opacity: 0.2;"></div>
+                        </div>
+                    </div>
+                    {{/if}}
                 </div>
-            {{/each}}
+            </div>
+            <div style="width: 100vw; display: flex; flex-direction: row; justify-content: center;">
+                <div id="created-grid" class="collections-grid">
+                    {{#each collections}}
+                    <div id="{{this.id}}" class="collection-container" style="height: fit-content; width: 300px;">
+                        <div class="collection-view">
+                            <div style="background-image: url('{{this.previewimages.[0]}}');"></div>
+                            <div style="background-image: url('{{this.previewimages.[1]}}');"></div>
+                            <div style="background-image: url('{{this.previewimages.[2]}}');"></div>
+                        </div>
+                        <a class="text-primary-bold" style="word-wrap: break-word;">{{this.name}}</a>
+                        <a class="text-secondary" style="word-wrap: break-word;">{{this.description}}</a>
+                    </div>
+                    {{/each}}
+                    {{#if edit}}
+                    <div class="collection-container" id="add" style="width: 300px">
+                        <div class="center-container" style="width: 100%; height: 100%;">
+                            <div style="height: 50px; aspect-ratio: 1; background-image: url('/plus_thick.svg'); background-size: cover; background-repeat: no-repeat; opacity: 0.2;"></div>
+                        </div>
+                    </div>
+                    {{/if}}
+                </div>
+            </div>
         </div>
     </div>
 </body>

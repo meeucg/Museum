@@ -8,5 +8,10 @@ namespace webProject.Models;
 
 public class ErrorMessageModel
 {
+    public ErrorMessageModel(string? error)
+    {
+        Error = error ?? "Unhandled exception";
+    }
+
     public string? Error { get; set; }
 }

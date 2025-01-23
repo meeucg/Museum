@@ -8,11 +8,10 @@ namespace webProject.Entities
 {
     public class Collection
     {
-        public Collection(string Name, string Description) {
-            this.Name = Name;
-            this.Description = Description;
-        }
+        public long Id { get; set; }
+        public long OwnerId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public List<string?> PreviewImages { get; set; }
     }
 }

@@ -59,7 +59,7 @@
 }
 
 .transition-to-id {
-    animation: transitionToId 300ms ease-in-out;
+    animation: transitionToId 400ms ease-in-out;
 }
 
 .scrollable {
@@ -164,7 +164,7 @@ body {
     padding: var(--frame-margin);
     opacity: 0%;
     transition-property: scale, height, border-radius;
-    transition-duration: 200ms;
+    transition-duration: 300ms;
     box-shadow: 0px 0px 10vh 0px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
@@ -210,6 +210,55 @@ body {
     background-repeat: no-repeat;
     border-radius: 0px;
 }
+
+.button-container {
+    position: relative;
+    left: 0px;
+    top: 0.5em;
+    padding: 0px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 0.5em;
+}
+
+.like-button {
+    height: 20px;
+    aspect-ratio: 1;
+    background-image: url("/favorite_outline.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    .like-button:hover {
+        background-image: url("/favorite_filled.svg");
+    }
+
+.like-button-active {
+    height: 20px;
+    aspect-ratio: 1;
+    background-image: url("/favorite_filled.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    .like-button-active:hover {
+        opacity: 0.5;
+    }
+
+.plus-button {
+    height: 20px;
+    aspect-ratio: 1;
+    background-image: url("/plus_thin.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    .plus-button:hover {
+        background-image: url("/plus_thick.svg");
+    }
 
 .top-navbar {
     display: flex;
@@ -259,10 +308,31 @@ body {
     color: var(--prinary-text);
 }
 
-.rounded-btn-white:hover {
-    cursor: pointer;
-    scale: var(--scale-multiplier);
+    .rounded-btn-white:hover {
+        cursor: pointer;
+        scale: var(--scale-multiplier);
+    }
+
+.rounded-btn-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 20px;
+    background-color: black;
+    color: white !important;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    transition-property: scale;
+    transition-duration: 100ms;
+    color: var(--prinary-text);
 }
+
+    .rounded-btn-black:hover {
+        cursor: pointer;
+        scale: var(--scale-multiplier);
+    }
 
 .search {
     padding: 0.5em 1em 0.5em 1em;

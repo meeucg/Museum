@@ -31,7 +31,7 @@ namespace webProject
         {
             try
             {
-                Console.WriteLine("Started API request");
+                //Console.WriteLine("Started API request");
                 var fullPath = $"/api/v1/artworks/{id}?" + FieldsQuery;
                 var result = await _httpClient.GetFromJsonAsync<ApiResponceSingle>(fullPath,
                 new JsonSerializerOptions
@@ -40,19 +40,18 @@ namespace webProject
                 }, cancellationToken: ctx);
                 if (result == null)
                 {
-                    throw new ApplicationException("Not found");
+                    return null;
                 }
                 return result;
             }
             catch(Exception ex){
-                Console.WriteLine("Error " + ex.Message);
-                throw new ApplicationException("Not found");
+                return null;
             }
             //return null;
         }
 
         public static async Task<ApiResponceMultiple?> GetListOfPicturesBySearch(CancellationToken ctx, string search, int limit) {
-            Console.WriteLine("Started API request");
+            //Console.WriteLine("Started API request");
             var fullPath = $"/api/v1/artworks/search?q={search}&limit={limit}&" + FieldsQuery;
             try
             { 
@@ -63,14 +62,16 @@ namespace webProject
                 }, cancellationToken: ctx);
                 if (result == null)
                 {
-                    throw new ApplicationException("Not found");
+                    //throw new ApplicationException("Not found");
+                    return null;
                 }
                 return result;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error " + ex.Message);
-                throw new ApplicationException("Not found");
+                //throw new ApplicationException("Not found");
+                return null;
             }
             //return null;
         } 

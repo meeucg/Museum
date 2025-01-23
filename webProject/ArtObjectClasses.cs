@@ -36,6 +36,7 @@ namespace webProject
         public List<DimensionsDetail> DimensionsDetail { get; set; }
         public string? ArtworkTypeTitle { get; set; }
         public string ImageId { get; set; }
+        public int Id { get; set; }
     }
 
     public class DimensionsDetail

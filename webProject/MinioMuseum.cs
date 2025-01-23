@@ -52,7 +52,6 @@ public static class MinioMuseum
         }
         catch (Exception ex) {
             Console.WriteLine(ex.Message);
-            response.StatusCode = 404;
             return false;
         }
     }
@@ -73,6 +72,56 @@ public static class MinioMuseum
             return true;
         }
         catch(Exception ex) {
+            Console.WriteLine(ex.Message);
+            return false;
+        }
+    }
+
+    public static async Task<bool> SetPicture(string pictureId, string contentType, Stream content, CancellationToken ctx)
+    {
+        string filename = $"{pictureId}/picture";
+
+        try
+        {
+            await minio.PutObjectAsync(
+                new PutObjectArgs()
+                    .WithBucket("userpictures")
+                    .WithContentType(contentType)
+                    .WithObject(filename)
+                    .WithStreamData(content)
+                    .WithObjectSize(-1),
+                ctx);
+            return true;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return false;
+        }
+    }
+
+    public static async Task<bool> GetPicture(HttpListenerContext context, string pictureId, CancellationToken ctx = default)
+    {
+        var response = context.Response;
+        try
+        {
+            var obj = await minio.GetObjectAsync(
+                new GetObjectArgs()
+                    .WithBucket("userpictures")
+                    .WithObject($"{pictureId}/picture")
+                    .WithCallbackStream((stream) =>
+                    {
+                        stream.CopyTo(response.OutputStream);
+                    }
+                )
+            , ctx);
+
+            response.ContentType = obj.ContentType;
+            response.StatusCode = 200;
+            return true;
+        }
+        catch (Exception ex)
+        {
             Console.WriteLine(ex.Message);
             return false;
         }

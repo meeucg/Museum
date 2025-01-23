@@ -13,7 +13,9 @@ namespace webProject.Models
             Login = user.Login;
             Role = user.Role;
             Username = user.Username;
+            Id = user.Id;
         }
+        public long Id { get; set; }
         public string Login { get; set; }
         public string Role { get; set; }
         public string Username { get; set; }

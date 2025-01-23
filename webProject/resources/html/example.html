@@ -26,19 +26,27 @@
 
             reader.onload = function (event) {
                 const arrayBuffer = event.target.result;
-                // Now you have the arrayBuffer of the file, you can send it to the server or process it further
+                const base64String = arrayBufferToBase64(arrayBuffer);
                 console.log(arrayBuffer);
 
-                // Example: Send the arrayBuffer to the server
-                fetch('http://localhost:5001/minio', {
+                fetch('http://localhost:5001/banner', {
                     method: 'POST',
-                    body: arrayBuffer,
-                    headers: {
-                        'Content-Type': file.type,
-                        'Authorization': localStorage.getItem("token")
-                    }
-                })
+                    body: JSON.stringify({
+                        imageBase64: base64String,
+                        contentType: file.type
+                    })
+                });
             };
+
+            function arrayBufferToBase64(buffer) {
+                let binary = '';
+                const bytes = new Uint8Array(buffer);
+                const len = bytes.byteLength;
+                for (let i = 0; i < len; i++) {
+                    binary += String.fromCharCode(bytes[i]);
+                }
+                return btoa(binary);
+            }
 
             reader.readAsArrayBuffer(file);
         }

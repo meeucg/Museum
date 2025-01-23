@@ -1,9 +1,10 @@
-import { setJwt, getUserLoginObject } from '/userMethods.js';
+import { getUserLoginObject, alertPage } from '/userMethods.js';
 
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const errorMessage = document.getElementById("errorMessage");
 const submit = document.getElementById("submit");
+const register = document.getElementById("register");
 
 function triggerEscKeydown() {
     const escEvent = new KeyboardEvent('keydown', {
@@ -63,8 +64,6 @@ function validateEmail(email) {
 
 let onSubmit = async () => {
 
-    console.log(getUserLoginObject(email.value, password.value));
-
     let result = await fetch('/login', {
         method: 'POST',
         headers: {},
@@ -74,12 +73,11 @@ let onSubmit = async () => {
     let responseData = await result.json();
 
     if (result.status === 200) {
-        setJwt(responseData.token);
         triggerEscKeydown();
         return;
     }
 
-    alert(responseData.error);
+    alertPage(document, responseData.error);
 }
 
 let handlePassword = (ev) => {
@@ -119,7 +117,7 @@ document.addEventListener("keydown", (ev) => {
         if (!ErrorModel.hasErrors) {
             onSubmit();
         } else {
-            alert("Check errors!");
+            alertPage(document, "Check errors!");
         }
     }
 });
@@ -129,8 +127,12 @@ submit.addEventListener("click", (ev) => {
     if (!ErrorModel.hasErrors) {
         onSubmit();
     } else {
-        alert("Check errors!");
+        alertPage(document, "Check errors!");
     }
+});
+
+register.addEventListener("click", () => {
+    location.pathname = "/registerPage.html";
 });
 
 ErrorModel.add(3);

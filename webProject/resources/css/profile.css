@@ -95,7 +95,8 @@
     .collection-view > div:first-child {
         grid-column-end: span 2;
         grid-row-end: span 2;
-        background-image: url("/image3.png") !important;
+/*        background-image: url("/image3.png") !important;*/
+        background-color: dimgray;
     }
 
     .collection-view > div {
@@ -103,5 +104,6 @@
         border-radius: 10px;
         background-position: center;
         background-size: cover;
-        background-image: url("/image.png");
+/*        background-image: url("/image.png");*/
+        background-color: dimgray;
     }

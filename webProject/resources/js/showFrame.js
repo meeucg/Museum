@@ -13,21 +13,22 @@ class headerFrame {
     }
 
     show() {
-        let loginFrame = this.frame;
+        let frame = this.frame;
         let document = this.document;
         let header = this.header;
 
-        header.insertBefore(loginFrame, header.firstChild);
+        header.insertBefore(frame, header.firstChild);
 
         let wait = setTimeout(() => {
             alert("Failed to load page, timeout expired.");
-            loginFrame.remove();
+            frame.remove();
         }, 15000);
 
-        loginFrame.addEventListener('load', (ev) => {
-            this.onLoadCallback();
+        frame.addEventListener('load', (ev) => {
+            var iframeDocument = frame.contentDocument || frame.contentWindow.document;
+
+            this.onLoadCallback(iframeDocument);
             clearTimeout(wait);
-            var iframeDocument = loginFrame.contentDocument || loginFrame.contentWindow.document;
 
             let handleKey = (ev) => {
                 if (ev.key == "Escape") {
@@ -45,9 +46,9 @@ class headerFrame {
             iframeDocument.addEventListener("keydown", handleKey);
             document.addEventListener("keydown", handleKey);
 
-            SlowAppear(loginFrame);
+            SlowAppear(frame);
             setTimeout(() => {
-                Show(loginFrame);
+                Show(frame);
             }, 150);
         });
     }

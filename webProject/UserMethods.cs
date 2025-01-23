@@ -28,40 +28,16 @@ public static class UserMethods
             response.StatusCode = 400;
             response.ContentType = "application/json";
             response.ContentEncoding = Encoding.UTF8;
-
-            await response.OutputStream.WriteAsync(
-                Encoding.UTF8.GetBytes(JsonSerializer.Serialize(
-                    new ErrorMessageModel
-                    {
-                        Error = "No data passed!"
-                    },
-                    new JsonSerializerOptions
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    })),
-            cancellationToken).ConfigureAwait(false);
-            return null;
+            throw new Exception("No data passed");
         }
 
-        var user = await DbContext.GetUserByLogin(userLoginModel!.Login, cancellationToken);
+        var user = await DbContext.GetUserByLogin(userLoginModel.Login, cancellationToken);
         if (user == null)
         {
             response.StatusCode = 401;
             response.ContentType = "application/json";
             response.ContentEncoding = Encoding.UTF8;
-
-            await response.OutputStream.WriteAsync(
-                Encoding.UTF8.GetBytes(JsonSerializer.Serialize(
-                    new ErrorMessageModel
-                    {
-                        Error = $"No such user: {userLoginModel.Login}"
-                    },
-                    new JsonSerializerOptions
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    })),
-            cancellationToken).ConfigureAwait(false);
-            return null;
+            throw new Exception($"No such user: {userLoginModel.Login}");
         }
 
         if (!PasswordHasher.Validate(user.Password, userLoginModel.Password))
@@ -69,19 +45,7 @@ public static class UserMethods
             response.StatusCode = 401;
             response.ContentType = "application/json";
             response.ContentEncoding = Encoding.UTF8;
-
-            await response.OutputStream.WriteAsync(
-                Encoding.UTF8.GetBytes(JsonSerializer.Serialize(
-                    new ErrorMessageModel
-                    {
-                        Error = "Wrong password!"
-                    },
-                    new JsonSerializerOptions
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    })),
-            cancellationToken).ConfigureAwait(false);
-            return null;
+            throw new Exception("Wrong password");
         }
 
         return new AuthResult
@@ -110,20 +74,8 @@ public static class UserMethods
             response.StatusCode = 400;
             response.ContentType = "application/json";
             response.ContentEncoding = Encoding.UTF8;
-
-            await response.OutputStream.WriteAsync(
-                Encoding.UTF8.GetBytes(JsonSerializer.Serialize(
-                    new ErrorMessageModel
-                    {
-                        Error = $"Data isn't valid! Info: " +
-                                $"{string.Join("\n\r", userValidationRulesExample.Errors.Select(er => er.ErrorMessage))}"
-                    },
-                    new JsonSerializerOptions
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    })),
-            cancellationToken).ConfigureAwait(false);
-            return null;
+            throw new Exception($"Data isn't valid! Info: " +
+                                $"{string.Join("\n\r", userValidationRulesExample.Errors.Select(er => er.ErrorMessage))}");
         }
 
         userLoginModel!.Password = PasswordHasher.Hash(userLoginModel.Password);
@@ -135,41 +87,17 @@ public static class UserMethods
             response.StatusCode = 400;
             response.ContentType = "application/json";
             response.ContentEncoding = Encoding.UTF8;
-
-            await response.OutputStream.WriteAsync(
-                Encoding.UTF8.GetBytes(JsonSerializer.Serialize(
-                    new ErrorMessageModel
-                    {
-                        Error = "Such user already exists"
-                    },
-                    new JsonSerializerOptions
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    })),
-            cancellationToken).ConfigureAwait(false);
-            return null;
+            throw new Exception("Such user already exists");
         }
 
-        var registerResult = await DbContext.CreateUser(userLoginModel!.Login, userLoginModel.Password, userLoginModel.Username, cancellationToken);
+        var registerResult = await DbContext.CreateUser(userLoginModel, cancellationToken);
 
         if (registerResult == null)
         {
             response.StatusCode = 400;
             response.ContentType = "application/json";
             response.ContentEncoding = Encoding.UTF8;
-
-            await response.OutputStream.WriteAsync(
-                Encoding.UTF8.GetBytes(JsonSerializer.Serialize(
-                    new ErrorMessageModel
-                    {
-                        Error = "Sorry, something went wrong"
-                    },
-                    new JsonSerializerOptions
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    })),
-            cancellationToken).ConfigureAwait(false);
-            return null;
+            throw new Exception("Sorry, something went wrong");
         }
 
         return new AuthResult
@@ -181,53 +109,26 @@ public static class UserMethods
     public static async Task<User?> Authorize(HttpListenerContext context, CancellationToken cancellationToken)
     {
         var response = context.Response;
-
-        var token = context.Request.Headers["Authorization"];
-        Console.WriteLine(token);
+        var token = context.Request.Cookies["token"];
 
         if (token == null)
         {
             response.StatusCode = 403;
             response.ContentType = "application/json";
             response.ContentEncoding = Encoding.UTF8;
-
-            await response.OutputStream.WriteAsync(
-                Encoding.UTF8.GetBytes(JsonSerializer.Serialize(
-                    new ErrorMessageModel
-                    {
-                        Error = "You haven't used the site for a long time, please login again!"
-                    },
-                    new JsonSerializerOptions
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    })),
-            cancellationToken).ConfigureAwait(false);
-            return null;
+            throw new Exception("You haven't used the site for a long time, please login again!");
         }
 
-        var tokenValidationResult = JwtWorker.ValidateJwtToken(token);
+        var tokenValidationResult = JwtWorker.ValidateJwtToken(token.Value);
 
         if (tokenValidationResult.isSuccess)
         {
-            Console.WriteLine("Success");
             return tokenValidationResult.user;
         }
 
         response.StatusCode = 403;
         response.ContentType = "application/json";
         response.ContentEncoding = Encoding.UTF8;
-
-        await response.OutputStream.WriteAsync(
-        Encoding.UTF8.GetBytes(JsonSerializer.Serialize(
-            new ErrorMessageModel
-            {
-                Error = "You haven't used the site for a long time, please login again!"
-            },
-            new JsonSerializerOptions
-            {
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-            })),
-        cancellationToken).ConfigureAwait(false);
-        return null;
+        throw new Exception("You haven't used the site for a long time, please login again!");
     }
 }
