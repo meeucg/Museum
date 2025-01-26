@@ -14,7 +14,6 @@ public static class DbContext
     private const string DbConnectionString = "Host=localhost;Port=5002;Username=admin;Password=20052005;Database=postgres";
     private static readonly NpgsqlConnection _dbConnection = new(DbConnectionString);
 
-
     public static async Task<User?> CreateUser(UserLoginModel user, CancellationToken cancellationToken = default)
     {
         try
@@ -73,32 +72,24 @@ public static class DbContext
         }
     }
 
-    public static async Task<User?> CreateUserLegacy(UserLoginModel user, CancellationToken cancellationToken = default)
+    public static async Task<bool> UpdateUsernameById(long id, string newUsername, CancellationToken cancellationToken = default)
     {
         try
         {
             await _dbConnection.OpenAsync(cancellationToken);
 
-            const string sqlQuery = "INSERT INTO users (login, password, role, username) VALUES (@login, @password, @role, @username) RETURNING id;";
+            const string sqlQuery = "BEGIN; UPDATE users SET username = @username WHERE id = @id; COMMIT;";
             var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
-            cmd.Parameters.AddWithValue("login", user.Login);
-            cmd.Parameters.AddWithValue("password", user.Password);
-            cmd.Parameters.AddWithValue("role", "user");
-            cmd.Parameters.AddWithValue("username", user.Username);
-            var result = await cmd.ExecuteScalarAsync(cancellationToken);
+            cmd.Parameters.AddWithValue("id", id);
+            cmd.Parameters.AddWithValue("username", newUsername);
+            await cmd.ExecuteNonQueryAsync(cancellationToken);
 
-            return new User
-            {
-                Login = user.Login,
-                Password = user.Password,
-                Id = Convert.ToInt32(result),
-                Role = "user",
-                Username = user.Username
-            };
+            return true;
         }
-        catch
+        catch(Exception ex)
         {
-            return null;
+            Console.WriteLine(ex.Message);
+            return false;
         }
         finally
         {
@@ -163,6 +154,34 @@ public static class DbContext
         {
             await _dbConnection.CloseAsync();
         }
+    }
+
+    public static async Task<bool?> IsPictureInCollection(long pictureId, long collectionId, CancellationToken cancellationToken = default) {
+        try
+        {
+            await _dbConnection.OpenAsync(cancellationToken);
+
+            const string sqlQuery = "SELECT * FROM collection_items WHERE picture_id = @picture_id AND collection_id = @collection_id";
+            var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
+            cmd.Parameters.AddWithValue("picture_id", pictureId);
+            cmd.Parameters.AddWithValue("collection_id", collectionId);
+            var reader = await cmd.ExecuteReaderAsync(cancellationToken);
+
+            if (reader.HasRows)
+            {
+                return true;
+            }
+        }
+        catch
+        {
+            return null;
+        }
+        finally
+        {
+            await _dbConnection.CloseAsync();
+        }
+
+        return false;
     }
 
     public static async Task<Collection?> GetCollectionById(long id, CancellationToken cancellationToken = default)
@@ -242,6 +261,35 @@ public static class DbContext
             const string sqlQuery = "SELECT picture_id FROM collection_items WHERE collection_id = @collection_id;";
             var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
             cmd.Parameters.AddWithValue("collection_id", collectionId);
+            var reader = await cmd.ExecuteReaderAsync(cancellationToken);
+
+            while (await reader.ReadAsync(cancellationToken))
+            {
+                int id = reader.GetInt32(0);
+                ids.Add(id);
+            }
+            return ids;
+        }
+        catch
+        {
+            return null;
+        }
+        finally
+        {
+            await _dbConnection.CloseAsync();
+        }
+    }
+
+    public static async Task<List<long>?> GetAllUserPictureIds(long userId, CancellationToken cancellationToken = default)
+    {
+        var ids = new List<long>();
+        try
+        {
+            await _dbConnection.OpenAsync(cancellationToken);
+
+            const string sqlQuery = "SELECT id FROM pictures WHERE owner_id = @owner_id;";
+            var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
+            cmd.Parameters.AddWithValue("owner_id", userId);
             var reader = await cmd.ExecuteReaderAsync(cancellationToken);
 
             while (await reader.ReadAsync(cancellationToken))
@@ -547,6 +595,27 @@ public static class DbContext
             const string sqlQuery = "DELETE FROM collection_items WHERE picture_id = @picture_id AND collection_id = @collection_id;";
             var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
             cmd.Parameters.AddWithValue("picture_id", pictureId);
+            cmd.Parameters.AddWithValue("collection_id", collectionId);
+            await cmd.ExecuteNonQueryAsync(cancellationToken);
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
+        finally
+        {
+            await _dbConnection.CloseAsync();
+        }
+    }
+
+    public static async Task<bool> RemoveCollection(long collectionId, CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            await _dbConnection.OpenAsync(cancellationToken);
+            const string sqlQuery = "BEGIN; DELETE FROM collection_items WHERE collection_id = @collection_id; DELETE FROM collections WHERE id = @collection_id; COMMIT;";
+            var cmd = new NpgsqlCommand(sqlQuery, _dbConnection);
             cmd.Parameters.AddWithValue("collection_id", collectionId);
             await cmd.ExecuteNonQueryAsync(cancellationToken);
             return true;

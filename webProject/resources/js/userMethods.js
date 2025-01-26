@@ -34,23 +34,21 @@ async function getUserInfo() {
 }
 
 async function likeApi(id) {
-    const like = await fetch("/likeartic", {
+    return fetch("/likeartic", {
         method: "POST",
         body: JSON.stringify({
             id: id
         })
     });
-    return { ok: like.ok, body: await like.json() };
 }
 
 async function dislikeApi(id) {
-    const dislike = await fetch("/dislikeartic", {
+    return fetch("/dislikeartic", {
         method: "POST",
         body: JSON.stringify({
             id: id
         })
     });
-    return { ok: dislike.ok, body: await dislike.json() };
 }
 
 async function getAllUserCollections() {
@@ -61,6 +59,77 @@ async function getAllUserCollections() {
         })
     });
     return { ok: collections.ok, body: await collections.json() };
+}
+
+async function addToCollectionApi(pictureId, collectionId) {
+    const res = await fetch(`/addtocollectionartic?collectionid=${collectionId}&pictureid=${pictureId}`, {
+        method: "POST"
+    });
+    if (res.ok) {
+        return { ok: true, body: undefined };
+    }
+    return { ok: false, body: await res.json() };
+}
+
+async function postUsername(username) {
+    const usernameRes = await fetch("/username", {
+        method: "POST",
+        body: JSON.stringify({
+            username: username
+        })
+    })
+    if (usernameRes.ok) {
+        return { ok: true, body: undefined };
+    }
+    return { ok: false, body: await usernameRes.json() };
+}
+
+async function postBanner(base64String, filetype) {
+    let res = await fetch("/banner", {
+        method: 'POST',
+        body: JSON.stringify({
+            imageBase64: base64String,
+            contentType: filetype
+        })
+    });
+    return { ok: res.ok };
+}
+
+async function postUserPicture(base64String, filetype, name, description) {
+    let res = await fetch("/userpicture", {
+        method: 'POST',
+        body: JSON.stringify({
+            imageBase64: base64String,
+            contentType: filetype,
+            name: name,
+            description: description
+        })
+    });
+    return { ok: res.ok };
+}
+
+async function postCollection(name, description) {
+    const add = await fetch("/addcollection", {
+        method: "POST",
+        body: JSON.stringify({
+            name: name,
+            description: description
+        })
+    })
+    if (add.ok) {
+        return { ok: true, body: undefined };
+    }
+    return { ok: false, body: await add.json() };
+}
+
+async function removeCollection(id) {
+    const remove = await fetch(`/removecollection?collectionid=${id}`, {
+        method: "POST"
+    })
+    if (remove.ok) {
+        return { ok: true, body: undefined };
+    }
+    return { ok: false, body: await remove.json() };
 }
 
 function alertPage(document, text) {
@@ -99,4 +168,4 @@ function getUserLoginObject(login, password, username = "Name placeholder") {
     };
 }
 
-export { getUserInfo, getUserLoginObject, exitAccount, alertPage, likeApi, dislikeApi, getAllUserCollections, getApiLikes, checkAuth }
+export { addToCollectionApi, postUserPicture, removeCollection, postCollection ,getUserInfo, getUserLoginObject, exitAccount, alertPage, likeApi, dislikeApi, getAllUserCollections, getApiLikes, checkAuth, postUsername, postBanner }

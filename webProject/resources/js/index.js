@@ -1,6 +1,6 @@
 import { headerFrame } from '/showFrame.js';
 import { ClassListContains, getDimensionsFromJpeg, SlowAppear, OffDrag, Hide } from '/utilityFunctions.js';
-import { alertPage, checkAuth, getApiLikes, getUserInfo } from '/userMethods.js';
+import { alertPage, checkAuth, getApiLikes, getUserInfo, addToCollectionApi, likeApi, dislikeApi } from '/userMethods.js';
 
 var vh;
 var vw;
@@ -282,36 +282,42 @@ class Museum {
                     if (ClassListContains(info.classList, "frame-info-show")) {
                         if (ev.target.id == "like") {
                             if (ClassListContains(ev.target.classList, "like-button")) {
-                                fetch("/likeartic", {
-                                    method: "POST",
-                                    body: JSON.stringify(
-                                        {
-                                            id: +frames[+frameObj.id].id
-                                        }
-                                    )
-                                }).then(res => {
+                                likeApi(+frames[+frameObj.id].id).then(async (res) => {
                                     if (res.ok) {
                                         ev.target.className = "like-button-active";
+                                    } else {
+                                        alertPage(document, await res.json());
                                     }
                                 });
                                 return;
                             } else {
-                                fetch("/dislikeartic", {
-                                    method: "POST",
-                                    body: JSON.stringify(
-                                        {
-                                            id: +frames[+frameObj.id].id
-                                        }
-                                    )
-                                }).then(res => {
+                                dislikeApi(+frames[+frameObj.id].id).then(async (res) => {
                                     if (res.ok) {
                                         ev.target.className = "like-button";
+                                    } else {
+                                        alertPage(document, await res.json());
                                     }
                                 });
                                 return;
                             }
                             
                         } else if (ev.target.id == "plus") {
+                            const collectionsList = new headerFrame(document, "/collectionslist", () => { },
+                                (doc) => {
+                                    let collections = doc.querySelectorAll(".collection-container");
+                                    collections.forEach((collection) => {
+                                        collection.addEventListener("click", async () => {
+                                            const res = await addToCollectionApi(+frames[+frameObj.id].id, collection.id);
+                                            if (!res.ok) {
+                                                alertPage(doc, res.body.error);
+                                            } else {
+                                                collectionsList.hide();
+                                            }
+                                        })
+                                    })
+                                }
+                            );
+                            collectionsList.show();
                             return;
                         }
 
@@ -422,6 +428,10 @@ currentMuseum.initMuseum();
 
 
 let initProfileBtn = async () => {
+    if (document.getElementById("profile-button") != undefined) {
+        return;
+    }
+
     const profileBtn = document.createElement('div');
     const text = document.createElement('div');
     const profileIcon = document.createElement('img');
@@ -431,6 +441,7 @@ let initProfileBtn = async () => {
     profileIcon.style.paddingLeft = "0.5em";
 
     profileBtn.className = "rounded-btn-white";
+    profileBtn.id = "profile-button";
     profileBtn.appendChild(text);
     profileBtn.appendChild(profileIcon);
 

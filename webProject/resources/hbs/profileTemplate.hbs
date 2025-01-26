@@ -64,6 +64,13 @@
                 <div id="saved-grid" class="collections-grid">
                     {{#each collections}}
                     <div id="{{this.id}}" class="collection-container" style="height: fit-content; width: 300px;">
+                        {{#if edit}}
+                            {{#ifNotEquals this.name "Favorite"}}
+                            <div class="rounded-btn-white" id="delete">
+                                <img src="/close.svg" alt="Delete collection" id="delete">
+                            </div>
+                            {{/ifNotEquals}}
+                        {{/if}}
                         <div class="collection-view">
                             <div style="background-image: url('{{this.previewimages.[0]}}');"></div>
                             <div style="background-image: url('{{this.previewimages.[1]}}');"></div>
@@ -74,7 +81,7 @@
                     </div>
                     {{/each}}
                     {{#if edit}}
-                    <div class="collection-container" id="add" style="width: 300px">
+                    <div class="collection-container" id="add-collection" style="width: 300px; height: 256px;">
                         <div class="center-container" style="width: 100%; height: 100%;">
                             <div style="height: 50px; aspect-ratio: 1; background-image: url('/plus_thick.svg'); background-size: cover; background-repeat: no-repeat; opacity: 0.2;"></div>
                         </div>
@@ -84,19 +91,15 @@
             </div>
             <div style="width: 100vw; display: flex; flex-direction: row; justify-content: center;">
                 <div id="created-grid" class="collections-grid">
-                    {{#each collections}}
-                    <div id="{{this.id}}" class="collection-container" style="height: fit-content; width: 300px;">
-                        <div class="collection-view">
-                            <div style="background-image: url('{{this.previewimages.[0]}}');"></div>
-                            <div style="background-image: url('{{this.previewimages.[1]}}');"></div>
-                            <div style="background-image: url('{{this.previewimages.[2]}}');"></div>
-                        </div>
+                    {{#each created}}
+                    <div id="{{this.id}}" class="collection-container" style="height: fit-content; width: 300px; height: 256px;">
+                        <div class="user-picture-view" style="background-image: url('{{this.imageUrl}}'); border-radius: inherit;"></div>
                         <a class="text-primary-bold" style="word-wrap: break-word;">{{this.name}}</a>
                         <a class="text-secondary" style="word-wrap: break-word;">{{this.description}}</a>
                     </div>
                     {{/each}}
                     {{#if edit}}
-                    <div class="collection-container" id="add" style="width: 300px">
+                    <div class="collection-container" id="add-picture" style="width: 300px">
                         <div class="center-container" style="width: 100%; height: 100%;">
                             <div style="height: 50px; aspect-ratio: 1; background-image: url('/plus_thick.svg'); background-size: cover; background-repeat: no-repeat; opacity: 0.2;"></div>
                         </div>

@@ -3,56 +3,172 @@
   "WorkspaceRootPath": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\hbs\\profiletemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\hbs\\profiletemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\profilepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\profilepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\showframe.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\showframe.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\hbs\\profiletemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\hbs\\profiletemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\hbs\\collectionpagetemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\hbs\\collectionpagetemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\hbs\\addtocollectiontemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\hbs\\addtocollectiontemplate.hbs||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\addcollection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\addcollection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\example.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\example.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userbannermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userbannermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\framework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\framework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userpicturemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userpicturemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\imgapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\imgapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\miniomuseum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\miniomuseum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\editprofile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\editprofile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\css\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\registerpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\registerpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\editprofile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\editprofile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\addpicture.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\addpicture.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\legacycode.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\legacycode.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\usermethods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\usermethods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\showframe.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\showframe.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\edit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\edit.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userpicturemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userpicturemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\usermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\usermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\addpicturepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\addpicturepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\addcollectionpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\addcollectionpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\entities\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\entities\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\collectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\collectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\svg\\close.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\svg\\close.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\profilepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\profilepage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\artistpicturemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\artistpicturemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userbannermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userbannermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\errormessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\errormessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\artobjectclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\artobjectclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\loginpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\loginpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\addcollection.js||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\addcollection.js||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\errormodel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\errormodel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\miniomuseum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\miniomuseum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\css\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\css\\forms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\entities\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,72 +183,16 @@
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\utilityfunctions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\usermethods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\usermethods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\js\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\registerpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\registerpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\loginpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\loginpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\framework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\framework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\collectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\collectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\alertpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\alertpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\usermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\usermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\entities\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\entities\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\artapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\artapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\artistpicturemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\artistpicturemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\artobjectclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\artobjectclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\svg\\plus_thick.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -155,36 +215,12 @@
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\svg\\account_circle.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\resources\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\resources\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\legacycode.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\legacycode.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\errormessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\errormessagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\models\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\models\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\webproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\webproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\imgapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|solutionrelative:webproject\\imgapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30B5B930-8F42-485C-A864-D7F597EE67F2}|webProject\\webProject.csproj|c:\\users\\meeuc\\onedrive\\desktop\\uni\\webproject\\code\\webproject\\jwtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -216,7 +252,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -224,592 +260,159 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\index.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\index.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\index.js",
-              "RelativeToolTip": "webProject\\resources\\js\\index.js",
-              "ViewState": "AgIAAOwBAAAAAAAAAAAqwPoBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-14T22:09:06.573Z",
+              "DocumentIndex": 3,
+              "Title": "collectionPageTemplate.hbs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\collectionPageTemplate.hbs",
+              "RelativeDocumentMoniker": "webProject\\resources\\hbs\\collectionPageTemplate.hbs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\collectionPageTemplate.hbs",
+              "RelativeToolTip": "webProject\\resources\\hbs\\collectionPageTemplate.hbs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T23:46:37.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "example.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\example.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\example.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\example.html",
-              "RelativeToolTip": "webProject\\resources\\html\\example.html",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-15T22:33:19.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Collection.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Collection.cs",
-              "RelativeDocumentMoniker": "webProject\\entities\\Collection.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Collection.cs",
-              "RelativeToolTip": "webProject\\entities\\Collection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T22:25:09.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "utilityFunctions.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\utilityFunctions.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\utilityFunctions.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\utilityFunctions.js",
-              "RelativeToolTip": "webProject\\resources\\js\\utilityFunctions.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-08T21:53:52.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserBannerModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserBannerModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\UserBannerModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserBannerModel.cs",
-              "RelativeToolTip": "webProject\\models\\UserBannerModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T21:47:58.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "profile.js",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\profile.js",
               "RelativeDocumentMoniker": "webProject\\resources\\js\\profile.js",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\profile.js",
               "RelativeToolTip": "webProject\\resources\\js\\profile.js",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-01-09T14:35:19.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "showFrame.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\showFrame.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\showFrame.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\showFrame.js",
-              "RelativeToolTip": "webProject\\resources\\js\\showFrame.js",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwB0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-07T19:21:29.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "profileTemplate.hbs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\profileTemplate.hbs",
-              "RelativeDocumentMoniker": "webProject\\resources\\hbs\\profileTemplate.hbs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\profileTemplate.hbs",
-              "RelativeToolTip": "webProject\\resources\\hbs\\profileTemplate.hbs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvzoAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-13T19:58:07.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "forms.css",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\forms.css",
-              "RelativeDocumentMoniker": "webProject\\resources\\css\\forms.css",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\forms.css",
-              "RelativeToolTip": "webProject\\resources\\css\\forms.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-07T19:28:08.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\index.css",
-              "RelativeDocumentMoniker": "webProject\\resources\\css\\index.css",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\index.css",
-              "RelativeToolTip": "webProject\\resources\\css\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMBAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-14T22:07:12.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "profilePage.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\profilePage.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\profilePage.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\profilePage.html",
-              "RelativeToolTip": "webProject\\resources\\html\\profilePage.html",
-              "ViewState": "AgIAABYAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-09T12:52:15.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "userMethods.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\userMethods.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\userMethods.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\userMethods.js",
-              "RelativeToolTip": "webProject\\resources\\js\\userMethods.js",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-08T21:05:26.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\Program.cs",
               "RelativeDocumentMoniker": "webProject\\Program.cs",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\Program.cs",
               "RelativeToolTip": "webProject\\Program.cs",
-              "ViewState": "AgIAABMCAAAAAAAAAAAQwFYCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAGsDAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T21:46:55.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MinioMuseum.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\MinioMuseum.cs",
-              "RelativeDocumentMoniker": "webProject\\MinioMuseum.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\MinioMuseum.cs",
-              "RelativeToolTip": "webProject\\MinioMuseum.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:12:14.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "editProfile.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\editProfile.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\editProfile.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\editProfile.html",
-              "RelativeToolTip": "webProject\\resources\\html\\editProfile.html",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAACPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-13T18:32:15.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserPictureModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserPictureModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\UserPictureModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserPictureModel.cs",
-              "RelativeToolTip": "webProject\\models\\UserPictureModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "Framework.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\Framework.cs",
+              "RelativeDocumentMoniker": "webProject\\Framework.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\Framework.cs",
+              "RelativeToolTip": "webProject\\Framework.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T20:04:46.974Z",
+              "WhenOpened": "2025-01-17T12:22:39.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "addToCollectionTemplate.hbs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\addToCollectionTemplate.hbs",
+              "RelativeDocumentMoniker": "webProject\\resources\\hbs\\addToCollectionTemplate.hbs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\addToCollectionTemplate.hbs",
+              "RelativeToolTip": "webProject\\resources\\hbs\\addToCollectionTemplate.hbs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-24T12:50:54.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "login.js",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\login.js",
-              "RelativeDocumentMoniker": "webProject\\resources\\js\\login.js",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\login.js",
-              "RelativeToolTip": "webProject\\resources\\js\\login.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAZAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "profileTemplate.hbs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\profileTemplate.hbs",
+              "RelativeDocumentMoniker": "webProject\\resources\\hbs\\profileTemplate.hbs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\hbs\\profileTemplate.hbs",
+              "RelativeToolTip": "webProject\\resources\\hbs\\profileTemplate.hbs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-13T19:58:07.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\index.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\index.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\index.js",
+              "RelativeToolTip": "webProject\\resources\\js\\index.js",
+              "ViewState": "AgIAAJ0AAAAAAAAAAADwv68BAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-07T18:46:19.845Z",
+              "WhenOpened": "2024-12-14T22:09:06.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 6,
+              "Title": "addCollection.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\addCollection.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\addCollection.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\addCollection.js",
+              "RelativeToolTip": "webProject\\resources\\js\\addCollection.js",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwFEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-24T01:39:17.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\DbContext.cs",
+              "RelativeDocumentMoniker": "webProject\\DbContext.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\DbContext.cs",
+              "RelativeToolTip": "webProject\\DbContext.cs",
+              "ViewState": "AgIAAIgCAAAAAAAAAAAmwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T13:52:57.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "register.js",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\register.js",
               "RelativeDocumentMoniker": "webProject\\resources\\js\\register.js",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\register.js",
               "RelativeToolTip": "webProject\\resources\\js\\register.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-01-07T18:46:22.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "profile.css",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\profile.css",
               "RelativeDocumentMoniker": "webProject\\resources\\css\\profile.css",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\profile.css",
               "RelativeToolTip": "webProject\\resources\\css\\profile.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-09T21:42:29.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T21:42:29.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "home_outline.svg",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\home_outline.svg",
-              "RelativeDocumentMoniker": "webProject\\resources\\svg\\home_outline.svg",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\home_outline.svg",
-              "RelativeToolTip": "webProject\\resources\\svg\\home_outline.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-23T20:45:24.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 13,
               "Title": "registerPage.html",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\registerPage.html",
               "RelativeDocumentMoniker": "webProject\\resources\\html\\registerPage.html",
               "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\registerPage.html",
               "RelativeToolTip": "webProject\\resources\\html\\registerPage.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAACSAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-07T19:09:22.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T19:09:22.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "loginPage.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\loginPage.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\loginPage.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\loginPage.html",
-              "RelativeToolTip": "webProject\\resources\\html\\loginPage.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAACZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-07T19:26:31.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Framework.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\Framework.cs",
-              "RelativeDocumentMoniker": "webProject\\Framework.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\Framework.cs",
-              "RelativeToolTip": "webProject\\Framework.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAUwEoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T12:22:39.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CollectionModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\CollectionModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\CollectionModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\CollectionModel.cs",
-              "RelativeToolTip": "webProject\\models\\CollectionModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T18:35:43.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "alertPage.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\alertPage.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\alertPage.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\alertPage.html",
-              "RelativeToolTip": "webProject\\resources\\html\\alertPage.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-23T15:43:19.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\DbContext.cs",
-              "RelativeDocumentMoniker": "webProject\\DbContext.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\DbContext.cs",
-              "RelativeToolTip": "webProject\\DbContext.cs",
-              "ViewState": "AgIAAMUBAAAAAAAAAAApwEcCAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T13:52:57.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserMethods.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserMethods.cs",
-              "RelativeDocumentMoniker": "webProject\\UserMethods.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserMethods.cs",
-              "RelativeToolTip": "webProject\\UserMethods.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T20:07:34.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserInfoModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserInfoModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\UserInfoModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserInfoModel.cs",
-              "RelativeToolTip": "webProject\\models\\UserInfoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T22:29:00.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Picture.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Picture.cs",
-              "RelativeDocumentMoniker": "webProject\\entities\\Picture.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Picture.cs",
-              "RelativeToolTip": "webProject\\entities\\Picture.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T19:54:47.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "webProject\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\PasswordHasher.cs",
-              "RelativeToolTip": "webProject\\PasswordHasher.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T12:27:41.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ArtObjectClasses.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtObjectClasses.cs",
-              "RelativeDocumentMoniker": "webProject\\ArtObjectClasses.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtObjectClasses.cs",
-              "RelativeToolTip": "webProject\\ArtObjectClasses.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA4wCYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T21:56:14.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "favorite_outline.svg",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\favorite_outline.svg",
-              "RelativeDocumentMoniker": "webProject\\resources\\svg\\favorite_outline.svg",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\favorite_outline.svg",
-              "RelativeToolTip": "webProject\\resources\\svg\\favorite_outline.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-19T14:11:33.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ArtAPI.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtAPI.cs",
-              "RelativeDocumentMoniker": "webProject\\ArtAPI.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtAPI.cs",
-              "RelativeToolTip": "webProject\\ArtAPI.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T12:06:29.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ArtistPictureModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ArtistPictureModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\ArtistPictureModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ArtistPictureModel.cs",
-              "RelativeToolTip": "webProject\\models\\ArtistPictureModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T20:25:24.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "plus_thick.svg",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\plus_thick.svg",
-              "RelativeDocumentMoniker": "webProject\\resources\\svg\\plus_thick.svg",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\plus_thick.svg",
-              "RelativeToolTip": "webProject\\resources\\svg\\plus_thick.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-19T22:04:57.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "plus_thin.svg",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\plus_thin.svg",
-              "RelativeDocumentMoniker": "webProject\\resources\\svg\\plus_thin.svg",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\plus_thin.svg",
-              "RelativeToolTip": "webProject\\resources\\svg\\plus_thin.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-19T22:03:46.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "favorite_filled.svg",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\favorite_filled.svg",
-              "RelativeDocumentMoniker": "webProject\\resources\\svg\\favorite_filled.svg",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\favorite_filled.svg",
-              "RelativeToolTip": "webProject\\resources\\svg\\favorite_filled.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-19T14:15:07.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\User.cs",
-              "RelativeDocumentMoniker": "webProject\\entities\\User.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\User.cs",
-              "RelativeToolTip": "webProject\\entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T22:28:42.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "account_circle.svg",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\account_circle.svg",
-              "RelativeDocumentMoniker": "webProject\\resources\\svg\\account_circle.svg",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\account_circle.svg",
-              "RelativeToolTip": "webProject\\resources\\svg\\account_circle.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-09T22:12:28.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "LegacyCode.txt",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\LegacyCode.txt",
-              "RelativeDocumentMoniker": "webProject\\LegacyCode.txt",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\LegacyCode.txt",
-              "RelativeToolTip": "webProject\\LegacyCode.txt",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-17T15:30:27.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\index.html",
-              "RelativeDocumentMoniker": "webProject\\resources\\html\\index.html",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\index.html",
-              "RelativeToolTip": "webProject\\resources\\html\\index.html",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-14T22:06:12.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "UserLoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserLoginModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\UserLoginModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserLoginModel.cs",
-              "RelativeToolTip": "webProject\\models\\UserLoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:10:29.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ErrorMessageModel.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ErrorMessageModel.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\ErrorMessageModel.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ErrorMessageModel.cs",
-              "RelativeToolTip": "webProject\\models\\ErrorMessageModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T15:59:43.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "AuthResult.cs",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\AuthResult.cs",
-              "RelativeDocumentMoniker": "webProject\\models\\AuthResult.cs",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\AuthResult.cs",
-              "RelativeToolTip": "webProject\\models\\AuthResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T22:10:07.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "webProject.csproj",
-              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\webProject.csproj",
-              "RelativeDocumentMoniker": "webProject\\webProject.csproj",
-              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\webProject.csproj",
-              "RelativeToolTip": "webProject\\webProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-14T21:47:26.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 10,
               "Title": "ImgAPI.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ImgAPI.cs",
               "RelativeDocumentMoniker": "webProject\\ImgAPI.cs",
@@ -821,7 +424,511 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\index.css",
+              "RelativeDocumentMoniker": "webProject\\resources\\css\\index.css",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\index.css",
+              "RelativeToolTip": "webProject\\resources\\css\\index.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-14T22:07:12.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "showFrame.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\showFrame.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\showFrame.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\showFrame.js",
+              "RelativeToolTip": "webProject\\resources\\js\\showFrame.js",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-07T19:21:29.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "addPicture.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\addPicture.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\addPicture.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\addPicture.js",
+              "RelativeToolTip": "webProject\\resources\\js\\addPicture.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-24T22:37:15.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "editProfile.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\editProfile.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\editProfile.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\editProfile.html",
+              "RelativeToolTip": "webProject\\resources\\html\\editProfile.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-13T18:32:15.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "addCollectionPage.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\addCollectionPage.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\addCollectionPage.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\addCollectionPage.html",
+              "RelativeToolTip": "webProject\\resources\\html\\addCollectionPage.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-24T01:17:20.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "edit.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\edit.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\edit.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\edit.js",
+              "RelativeToolTip": "webProject\\resources\\js\\edit.js",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-23T23:43:01.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "addPicturePage.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\addPicturePage.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\addPicturePage.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\addPicturePage.html",
+              "RelativeToolTip": "webProject\\resources\\html\\addPicturePage.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-24T21:58:45.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LegacyCode.txt",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\LegacyCode.txt",
+              "RelativeDocumentMoniker": "webProject\\LegacyCode.txt",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\LegacyCode.txt",
+              "RelativeToolTip": "webProject\\LegacyCode.txt",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-17T15:30:27.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserMethods.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserMethods.cs",
+              "RelativeDocumentMoniker": "webProject\\UserMethods.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserMethods.cs",
+              "RelativeToolTip": "webProject\\UserMethods.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T20:07:34.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "userMethods.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\userMethods.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\userMethods.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\userMethods.js",
+              "RelativeToolTip": "webProject\\resources\\js\\userMethods.js",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAmwKoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-08T21:05:26.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserPictureModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserPictureModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\UserPictureModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserPictureModel.cs",
+              "RelativeToolTip": "webProject\\models\\UserPictureModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:04:46.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CollectionModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\CollectionModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\CollectionModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\CollectionModel.cs",
+              "RelativeToolTip": "webProject\\models\\CollectionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T18:35:43.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Picture.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Picture.cs",
+              "RelativeDocumentMoniker": "webProject\\entities\\Picture.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Picture.cs",
+              "RelativeToolTip": "webProject\\entities\\Picture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T19:54:47.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "close.svg",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\close.svg",
+              "RelativeDocumentMoniker": "webProject\\resources\\svg\\close.svg",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\close.svg",
+              "RelativeToolTip": "webProject\\resources\\svg\\close.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-24T19:30:47.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "profilePage.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\profilePage.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\profilePage.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\profilePage.html",
+              "RelativeToolTip": "webProject\\resources\\html\\profilePage.html",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-09T12:52:15.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserInfoModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserInfoModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\UserInfoModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserInfoModel.cs",
+              "RelativeToolTip": "webProject\\models\\UserInfoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:29:00.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\UserLoginModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserLoginModel.cs",
+              "RelativeToolTip": "webProject\\models\\UserLoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T22:10:29.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ArtistPictureModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ArtistPictureModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\ArtistPictureModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ArtistPictureModel.cs",
+              "RelativeToolTip": "webProject\\models\\ArtistPictureModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:25:24.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserBannerModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserBannerModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\UserBannerModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\UserBannerModel.cs",
+              "RelativeToolTip": "webProject\\models\\UserBannerModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T21:47:58.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\index.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\index.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\index.html",
+              "RelativeToolTip": "webProject\\resources\\html\\index.html",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-14T22:06:12.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ErrorMessageModel.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ErrorMessageModel.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\ErrorMessageModel.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\ErrorMessageModel.cs",
+              "RelativeToolTip": "webProject\\models\\ErrorMessageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:59:43.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\User.cs",
+              "RelativeDocumentMoniker": "webProject\\entities\\User.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\User.cs",
+              "RelativeToolTip": "webProject\\entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T22:28:42.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "loginPage.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\loginPage.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\loginPage.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\loginPage.html",
+              "RelativeToolTip": "webProject\\resources\\html\\loginPage.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-07T19:26:31.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ArtObjectClasses.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtObjectClasses.cs",
+              "RelativeDocumentMoniker": "webProject\\ArtObjectClasses.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtObjectClasses.cs",
+              "RelativeToolTip": "webProject\\ArtObjectClasses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:56:14.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "login.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\login.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\login.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\login.js",
+              "RelativeToolTip": "webProject\\resources\\js\\login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-07T18:46:19.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "addCollection.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\addCollection.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\addCollection.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\addCollection.js",
+              "RelativeToolTip": "webProject\\resources\\js\\addCollection.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-24T01:26:24.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "errorModel.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\errorModel.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\errorModel.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\errorModel.js",
+              "RelativeToolTip": "webProject\\resources\\js\\errorModel.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-23T23:46:54.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "forms.css",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\forms.css",
+              "RelativeDocumentMoniker": "webProject\\resources\\css\\forms.css",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\css\\forms.css",
+              "RelativeToolTip": "webProject\\resources\\css\\forms.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-07T19:28:08.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "utilityFunctions.js",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\utilityFunctions.js",
+              "RelativeDocumentMoniker": "webProject\\resources\\js\\utilityFunctions.js",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\js\\utilityFunctions.js",
+              "RelativeToolTip": "webProject\\resources\\js\\utilityFunctions.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-08T21:53:52.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Collection.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Collection.cs",
+              "RelativeDocumentMoniker": "webProject\\entities\\Collection.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\entities\\Collection.cs",
+              "RelativeToolTip": "webProject\\entities\\Collection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T22:25:09.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MinioMuseum.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\MinioMuseum.cs",
+              "RelativeDocumentMoniker": "webProject\\MinioMuseum.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\MinioMuseum.cs",
+              "RelativeToolTip": "webProject\\MinioMuseum.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:12:14.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "home_outline.svg",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\home_outline.svg",
+              "RelativeDocumentMoniker": "webProject\\resources\\svg\\home_outline.svg",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\home_outline.svg",
+              "RelativeToolTip": "webProject\\resources\\svg\\home_outline.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-23T20:45:24.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "alertPage.html",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\alertPage.html",
+              "RelativeDocumentMoniker": "webProject\\resources\\html\\alertPage.html",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\html\\alertPage.html",
+              "RelativeToolTip": "webProject\\resources\\html\\alertPage.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-23T15:43:19.522Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 46,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "webProject\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\PasswordHasher.cs",
+              "RelativeToolTip": "webProject\\PasswordHasher.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T12:27:41.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "favorite_outline.svg",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\favorite_outline.svg",
+              "RelativeDocumentMoniker": "webProject\\resources\\svg\\favorite_outline.svg",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\favorite_outline.svg",
+              "RelativeToolTip": "webProject\\resources\\svg\\favorite_outline.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-19T14:11:33.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ArtAPI.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtAPI.cs",
+              "RelativeDocumentMoniker": "webProject\\ArtAPI.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\ArtAPI.cs",
+              "RelativeToolTip": "webProject\\ArtAPI.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:06:29.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "plus_thick.svg",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\plus_thick.svg",
+              "RelativeDocumentMoniker": "webProject\\resources\\svg\\plus_thick.svg",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\plus_thick.svg",
+              "RelativeToolTip": "webProject\\resources\\svg\\plus_thick.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-19T22:04:57.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "plus_thin.svg",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\plus_thin.svg",
+              "RelativeDocumentMoniker": "webProject\\resources\\svg\\plus_thin.svg",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\plus_thin.svg",
+              "RelativeToolTip": "webProject\\resources\\svg\\plus_thin.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-19T22:03:46.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "favorite_filled.svg",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\favorite_filled.svg",
+              "RelativeDocumentMoniker": "webProject\\resources\\svg\\favorite_filled.svg",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\favorite_filled.svg",
+              "RelativeToolTip": "webProject\\resources\\svg\\favorite_filled.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-19T14:15:07.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "account_circle.svg",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\account_circle.svg",
+              "RelativeDocumentMoniker": "webProject\\resources\\svg\\account_circle.svg",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\account_circle.svg",
+              "RelativeToolTip": "webProject\\resources\\svg\\account_circle.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAgASURBVFhHxVZ7UFTnFf/de3f37oNd3qw8BFQeFhGrgo3BigarMQn5wxLMpNqGVDJJnNFOx5namSbtNDOdtA5tjUVbxmYmTEvTpjjNjJqpNdOHGmjIBERBHvKShwu7cHeBZd\u002B7PffuvbDASpqZzvTHHL7Hfvec33fO953v4P\u002BKUCjEyN2oaGpqOk/Nq\u002BFRGPTNina1viwXjh49\u002Bpr0wzJ8HoHQoUOH5NEXR39/P8bGRjE5aYXb7e4iEpvknxbAyu3nIryTIILB1SSAQGBRTCYTbLYpVFZWiioKLl682Ckpi8B/TYAoEAG5GwnfIFhXHVjhm2As28BaywDHOfi9XsTHx0vERVRVVYmkCurq6paQ\u002BAIekDsSiIz7LtjZarCWrwJ9P0Gw/wb8tjwEhCRwA29BNfgteOfnJc8oEEn4fL6C3xDkKajkNioU9iOCC58NCxiecoJXu1CRfgmJ\u002BCX8VjIwocNI7M/AxmwH46VDFeBg4IeQbDkOf7IHiYkJaGhogMfjgZe8kpOTA4vF8jKpPUniXvUQvvOHppA3bSu6yZA51YTi9U7s0X4fnPOvQJcL12dr8A/vc7AKDDatTURVaR5STDzmpqdhsBzDbHI9GF4DwW6Hy\u002BWCTqeD2bwGjY2NqKmpSSUTlkeGIPv01W0fjqkwzPLY/EQBXvhyD/YZq6Gy/wVoc\u002BPvKY3ozH8dzJYdmNtajGZBhZ9evovOMQf0cfFgDOngVCoYDAZkZGQgNzdXavV6veJZrfgvKgHROMOGvptfUY6S7Smo5N9FJvMGMNyC4G0Vfpf0RzRzuzFvSoY\u002B0YSszDioN2bjfswanL/ejZ5xK4KaLWBYRb3oaFHCIVVCK2IFATJupiWvvfDSE0/vyOJxIHQRJua3QE8zArfVeNN2ATduJ8Jy5yGEzmF4HU5oSHdKoh6xaQl4YExD/T8HMaXaB7VO3KQSZdFouL8qAfr1pacObinfnsbH7Qk2Qs80Avduwn9XhZsZl1D9bBUufHs3Th/IR9kaHSZvdSAwPUOu5pCQoIUmOR7DLh5/apunEKhlm\u002BErrNh9JIHs713OSk\u002BNLXtsa1r2TnwEI9dAV\u002BwGAvdU6C64gl07n0R6gl5Sajbp8GRhGg6VZMHZPwrO54cxRo3YODVmU9fik4FpjE7PSXoX7YU7jyTAMMzOXSWZOcVsF9aozgKDHyHUyeDXvlrkbaIEI3sz4nuU5iRh3jYN1uuHljZsMKhhICJzQRVa\u002ByblVSIiPorAkjzAq9mi3esC6fnMm8DYZaADuLbxV7jXXoTvvNdGhoOScXEH4V2ERNK0ixC5m9jRdniOgU6rgl1jRK9lRia71HikB5YQSIpBxi5VI8/MXKV7DnyadQrjOS\u002BipFBHXzFL1ITNEyjR\u002BfwhuAMMyAlEhINKw8EdE4MJx4i4YgGK3aghoEn2xc3dm7X\u002B9xncn4WVyUV73utg9TqwtDuW3MtFiHi\u002B1JxoENDQ72rS5CW9QT\u002BxCPiJF0PEAqJmWb/USIgkIEeVJoW34x2OG0M64ZKJ6wEailvBpBWRcQ4f//5jSUFIzOvUkf6CchjEsaQw3A9GzBWuTcDJp4rEoYwQeF6Lc\u002BfO4cSJE\u002BtoYkgKgbj7kOUbz2tU/xJTHz4w/wgOYx5MlEgCriBoo/jFkWKwFO/weqkhLHQkPGp\u002B5XgRSghYhrMeZgTB65wxeK7qj8BKD8uMJwAfOZOPNaD3YfhALTeizEUzvnR\u002BEZEhkDzgGz6coeZbc9Xjfk/tUJnFlsFs1M37odOo6TGhBLPejD\u002B3DuN0RRFUMmWlmrPNufCD91pgd3phpNMfDAQRp1cjPV6P/VuzUZiZtLBWIRdJQFLHBWzFcDnBOoJTjZ2bPgxNCsNWuw/2eR9c/iCMmclwxujx8ysddLUcCFD8Z90\u002B3Oq14K0PPoMuKxOZz5QjoWI/Yp/dDyFjPWbmPSigFzIM0WAUVxDCZyBoN9ORhXcaLcmtf2tqS8xPWa81JnJqNoahc5oQo0HGjlwIfRacvzmIeWEGDMdCF2\u002BC7ks59BCYQfQxPevD5JAVGwa78MrhUvqSrm4Uuys8EHQ5Q6DbMyvgQcpAq5Xz\u002B870X2\u002B5\u002BnDIhpFpLybnfBA8dO2yUpFatgXrni5F6tceQ0xxIQLpGXCEWIzYPBjoHIOx\u002Bw6q9xXBHGcgzUt3rthdQcA55WoTE4pWD56G3pL6Yx3klh8bb/8b/PA47ltc6J/yYozOhdXHwEaOs1MymKDqZ0Rwo29kFo67vcgf78DJ/fnYvoEe1GWGwzYX5xRIBF7e\u002B\u002BDToBu39JnYSzUDpT1wo3VHOg\u002Bke7E3gYO5vR2aO70QukbR12NDR78DPfemMNU\u002BCO8nd5Dc3oIytYA3qkpRujFNVLkMouFIQot98YqDivVQwIPm3BysO3gQ1V8/irwf1uArvoC\u002BvKL8GTxOceZpgWpaQKwwCWawH3FTD5FD9eG2FB7P79yAysfzEWvQSEojEWFLgopSaHNzM65du0avHewLmfA5CjE1cSSxJGIp695z9uzYK8ePE/cQldRKdRu5E7kjYZklQjS3a7U61NbW4tSpU1ImlG818D6lAxIryX2SAZJxnuo5luOotFaUKCQUiGNFxDVhEdeL5Xj49QynZUWWY4FANCgfqNVqaDQaEqp4NPyC8LwuqojVr06njyrLsRCCaKivrz9PJF5dvoPI8fK5aP3IVsTExMSVM2fOHKOuZVUCMsTKUjwbUhn9P4KbxA7A/R/p8uJkqR8S6QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-01-09T22:12:28.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\AuthResult.cs",
+              "RelativeDocumentMoniker": "webProject\\models\\AuthResult.cs",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\models\\AuthResult.cs",
+              "RelativeToolTip": "webProject\\models\\AuthResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T22:10:07.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "webProject.csproj",
+              "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\webProject.csproj",
+              "RelativeDocumentMoniker": "webProject\\webProject.csproj",
+              "ToolTip": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\webProject.csproj",
+              "RelativeToolTip": "webProject\\webProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T21:47:26.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
               "Title": "JwtWorker.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\JwtWorker.cs",
               "RelativeDocumentMoniker": "webProject\\JwtWorker.cs",
@@ -833,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 57,
               "Title": "UserValidationRules.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserValidationRules.cs",
               "RelativeDocumentMoniker": "webProject\\UserValidationRules.cs",
@@ -845,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "arrow_back.svg",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\resources\\svg\\arrow_back.svg",
               "RelativeDocumentMoniker": "webProject\\resources\\svg\\arrow_back.svg",
@@ -857,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 58,
               "Title": "UserValidator.cs",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\Code\\webProject\\UserValidator.cs",
               "RelativeDocumentMoniker": "webProject\\UserValidator.cs",
@@ -869,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 59,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -881,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 60,
               "Title": "signInPage.html",
               "DocumentMoniker": "C:\\Users\\meeuc\\OneDrive\\Desktop\\uni\\webProject\\webProject\\resources\\html\\signInPage.html",
               "RelativeDocumentMoniker": "..\\webProject\\resources\\html\\signInPage.html",

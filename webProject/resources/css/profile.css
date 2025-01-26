@@ -59,12 +59,44 @@
     padding: 15px;
     box-sizing: border-box;
 }
+    .collection-container > .text-primary-bold {
+        max-height: 27.5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .collection-container > .text-secondary {
+        max-height: 18.5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .collection-container > #delete {
+        position: absolute;
+        top: 1.7em;
+        right: 1.7em;
+        width: 25px;
+        height: 25px;
+        box-sizing: border-box;
+        padding: 0.1em;
+        opacity: 0;
+    }
 
     .collection-container:hover {
         cursor: pointer;
         scale: 1.05;
         border-radius: 5px;
     }
+
+        .collection-container:hover > #delete {
+            transition-property: opacity scale;
+            transition-duration: 200ms;
+            opacity: 1;
+        }
+
+        .collection-container:hover > #delete:hover {
+            scale: 1.05;
+        }
 
 .profile-banner {
     z-index: 0;
@@ -107,3 +139,12 @@
 /*        background-image: url("/image.png");*/
         background-color: dimgray;
     }
+
+.user-picture-view {
+    height: 160px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-color: dimgray;
+}

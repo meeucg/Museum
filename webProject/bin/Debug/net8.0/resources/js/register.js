@@ -1,4 +1,5 @@
 import { getUserLoginObject, alertPage } from '/userMethods.js';
+import { Errors } from "/errorModel.js";
 
 const email = document.getElementById("email");
 const password1 = document.getElementById("password1");
@@ -17,36 +18,6 @@ function triggerEscKeydown() {
         cancelable: true
     });
     email.dispatchEvent(escEvent);
-}
-
-class Errors {
-    constructor(errorFieldCallback, errors) {
-        this.errors = errors;
-        this.currentErrors = [];
-        this.errorFieldCallback = errorFieldCallback;
-        this.hasErrors = false;
-    }
-
-    add(error) {
-        this.delete(error);
-        this.currentErrors.push(error);
-        this.update();
-    }
-
-    update() {
-        if (this.currentErrors.length == 0) {
-            this.hasErrors = false;
-            this.errorFieldCallback("");
-            return;
-        }
-        this.hasErrors = true;
-        this.errorFieldCallback(errors[this.currentErrors.at(-1)]);
-    }
-
-    delete(error) {
-        this.currentErrors = this.currentErrors.filter((item) => item != error) ?? [];
-        this.update();
-    }
 }
 
 const errors = {

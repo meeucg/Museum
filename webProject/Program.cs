@@ -10,6 +10,19 @@ using Microsoft.Win32;
 using System.Threading;
 using webProject.models;
 
+Handlebars.RegisterHelper("ifNotEquals", (writer, options, context, arguments) => {
+    var arg1 = arguments[0];
+    var arg2 = arguments[1];
+    if (arg1 != null && !arg1.Equals(arg2))
+    {
+        options.Template(writer, (object)context);
+    }
+    else
+    {
+        options.Inverse(writer, (object)context);
+    }
+});
+
 async Task ShowResourseFile(HttpListenerContext context, CancellationToken token)
 {
     if (context.Request.Url is null)
@@ -201,6 +214,7 @@ var profileEndpoint =
                 string source = File.ReadAllText(profileTemplatePath);
                 var template = Handlebars.Compile(source);
 
+                List<Picture> created = new();
                 List<Collection> collections = new();
                 var collectionIds = await DbContext.GetAllUserCollectionIds(id, token) ?? [];
                 foreach (var collectionId in collectionIds) {
@@ -223,6 +237,14 @@ var profileEndpoint =
                     newCollection.PreviewImages = previews;
                     collections.Add(newCollection);
                 }
+                var userPictureIds = await DbContext.GetAllUserPictureIds(id, token) ?? [];
+                foreach (var userPictureId in userPictureIds) {
+                    var newUserPicture = await DbContext.GetPictureById(userPictureId, token);
+                    if (newUserPicture == null) {
+                        continue;
+                    }
+                    created.Add(newUserPicture);
+                }
 
                 var data = new
                 {
@@ -231,6 +253,7 @@ var profileEndpoint =
                     edit = edit,
                     avatarLetter = char.ToUpper(user.Username[0]),
                     collections = collections,
+                    created = created,
                     banner = $"/banner?id={user.Id}",
                 };
                 var result = template(data);
@@ -353,6 +376,35 @@ var getUserPictureEndpoint =
         }
     );
 
+var getAllUserPicturesEndpoint =
+    new Endpoint(
+        (context) =>
+        {
+            return context.Request.Url?.LocalPath == "/alluserpictures"
+                    && context.Request.HttpMethod == "GET";
+        },
+        async (context, token) =>
+        {
+            var response = context.Response;
+            var request = context.Request;
+
+            var auth = await UserMethods.Authorize(context, token);
+            if (auth == null)
+            {
+                throw new Exception("Unauthorized request");
+            }
+
+            var pictures = await DbContext.GetAllUserPictureIds(auth.Id, token) ?? throw new Exception("Picture doesn't exist");
+
+            response.StatusCode = 200;
+            await response.OutputStream.WriteAsync(
+                Encoding.UTF8.GetBytes(JsonSerializer.Serialize(pictures, new JsonSerializerOptions
+                {
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+                })), token);
+        }
+    );
+
 var postUserCollectionEndpoint =
     new Endpoint(
         (context) => {
@@ -378,6 +430,37 @@ var postUserCollectionEndpoint =
                 }) ?? throw new Exception("Invalid request body");
 
             await DbContext.CreateCollection(collection, auth.Id, token) ;
+            response.StatusCode = 200;
+        }
+    );
+
+var removeUserCollectionEndpoint =
+    new Endpoint(
+        (context) => {
+            return context.Request.Url?.LocalPath == "/removecollection"
+                    && context.Request.HttpMethod == "POST";
+        },
+        async (context, token) => {
+            var auth = await UserMethods.Authorize(context, token);
+            if (auth == null)
+            {
+                throw new Exception("Unauthorized request");
+            }
+
+            var response = context.Response;
+            var request = context.Request;
+
+            int collectionId;
+            if (!Int32.TryParse(request.QueryString["collectionid"], out collectionId))
+            {
+                throw new Exception("Not valid url");
+            }
+            if ((await DbContext.GetCollectionById(collectionId, token) ?? throw new Exception("Collection doesn't exist")).OwnerId != auth.Id) {
+                throw new Exception("This collection doesn't belong to the current user");
+            }
+            if (!await DbContext.RemoveCollection(collectionId, token)) {
+                throw new Exception("Something went wrong");
+            }
             response.StatusCode = 200;
         }
     );
@@ -429,6 +512,15 @@ var likeArticPictureEndpoint =
             }
             else 
             {
+                if (await DbContext.IsPictureInCollection(
+                    pictureDbId ?? 0, 
+                    await DbContext.GetUserLikesCollectionId(auth.Id, token) 
+                    ?? throw new Exception("Something went wrong"),
+                    token) ?? throw new Exception("Something went wrong")
+                )
+                {
+                    throw new Exception("Picture is already in favorite collection");
+                }
                 await DbContext.Like(pictureDbId ?? 0, auth.Id); // ?? 0 просто для преобразования long? в long
             }
 
@@ -576,6 +668,193 @@ var postUserBannerEndpoint =
         }
     );
 
+var postUsernameEndpoint =
+    new Endpoint(
+        (context) => {
+            return context.Request.Url?.LocalPath == "/username"
+                    && context.Request.HttpMethod == "POST";
+        },
+        async (context, token) => {
+            var response = context.Response;
+            var request = context.Request;
+
+            var auth = await UserMethods.Authorize(context, token);
+            if (auth == null)
+            {
+                throw new Exception("Unauthorized request");
+            }
+
+            using var sr = new StreamReader(request.InputStream);
+            var user = JsonSerializer.Deserialize<UserLoginModel>(
+                await sr.ReadToEndAsync(token).ConfigureAwait(false),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }) ?? throw new Exception("Invalid request body");
+
+            await DbContext.UpdateUsernameById(auth.Id, user.Username ?? throw new Exception("No data passed"), token);
+            response.StatusCode = 200;
+        }
+    );
+
+var getCollectionsListEndpoint =
+    new Endpoint(
+        (context) => {
+            return context.Request.Url?.LocalPath == "/collectionslist"
+                    && context.Request.HttpMethod == "GET";
+        },
+        async (context, token) => {
+            var response = context.Response;
+            var request = context.Request;
+            var auth = await UserMethods.Authorize(context, token) ?? throw new Exception("Unauthorized request");
+
+            var user = await DbContext.GetUserById(auth.Id);
+            if (user != null)
+            {
+                string addToCollectionPath = "./resources/hbs/addToCollectionTemplate.hbs";
+                string source = File.ReadAllText(addToCollectionPath);
+                var template = Handlebars.Compile(source);
+
+                List<Collection> collections = new();
+                var collectionIds = await DbContext.GetAllUserCollectionIds(auth.Id, token) ?? [];
+                foreach (var collectionId in collectionIds)
+                {
+                    var newCollection = await DbContext.GetCollectionById(collectionId, token);
+                    if (newCollection == null)
+                    {
+                        continue;
+                    }
+                    collections.Add(newCollection);
+                }
+
+                var data = new
+                {
+                    collections = collections,   
+                };
+                var result = template(data);
+
+                response.ContentType = "text/html";
+                response.StatusCode = 200;
+                await response.OutputStream.WriteAsync(Encoding.UTF8.GetBytes(result), token);
+            }
+            else
+            {
+                throw new Exception("Such user doesn't exist");
+            }
+        }
+    );
+
+var getCollectionPageEndpoint =
+    new Endpoint(
+        (context) => {
+            return context.Request.Url?.LocalPath == "/collectionpage"
+                    && context.Request.HttpMethod == "GET";
+        },
+        async (context, token) => {
+            var response = context.Response;
+            var request = context.Request;
+            
+            int collectionId;
+            if (!Int32.TryParse(request.QueryString["collectionid"], out collectionId))
+            {
+                throw new Exception("Not valid url");
+            }
+
+            var collection = await DbContext.GetCollectionById(collectionId) ?? throw new Exception("Collection doesn't exist");
+            string addToCollectionPath = "./resources/hbs/collectionPageTemplate.hbs";
+            string source = File.ReadAllText(addToCollectionPath);
+            var template = Handlebars.Compile(source);
+
+            List<Picture> pictures = new();
+            var pictureIds = await DbContext.GetAllPictureIdsFromCollection(collectionId, token) ?? [];
+            foreach (var pictureId in pictureIds)
+            {
+                var newPicture = await DbContext.GetPictureById(pictureId, token);
+                if (newPicture == null)
+                {
+                    continue;
+                }
+                pictures.Add(newPicture);
+            }
+
+            var data = new
+            {
+                pictures = pictures,
+                collectionName = collection.Name
+            };
+            var result = template(data);
+
+            response.ContentType = "text/html";
+            response.StatusCode = 200;
+            await response.OutputStream.WriteAsync(Encoding.UTF8.GetBytes(result), token);
+        }
+    );
+
+
+var addApiPictureToCollectionEndpoint =
+    new Endpoint(
+        (context) => {
+            return context.Request.Url?.LocalPath == "/addtocollectionartic"
+                    && context.Request.HttpMethod == "POST";
+        },
+        async (context, token) => {
+            var auth = await UserMethods.Authorize(context, token);
+            if (auth == null)
+            {
+                throw new Exception("Unauthorized request");
+            }
+
+            var response = context.Response;
+            var request = context.Request;
+
+            int pictureId;
+            if (!Int32.TryParse(request.QueryString["pictureid"], out pictureId))
+            {
+                throw new Exception("Not valid url");
+            }
+
+            int collectionId;
+            if (!Int32.TryParse(request.QueryString["collectionid"], out collectionId))
+            {
+                throw new Exception("Not valid url");
+            }
+
+            var pictureDbId = await DbContext.GetPictureIdByApiId(pictureId, token);
+
+            if (pictureDbId == null)
+            {
+                var getPicture = await ArtAPI.GetPictureJsonById(token, pictureId) ?? throw new Exception("Picture not found");
+                Console.WriteLine(getPicture.Data.ArtistDisplay);
+
+                var newPicture = new UserPictureModel
+                {
+                    Name = getPicture.Data.Title ?? "Unnamed",
+                    Description = getPicture.Data.ArtistDisplay + " | " + getPicture.Data.DateDisplay,
+                    ImageBase64 = "",
+                    ContentType = "image/jpg"
+                };
+
+                var pictureResult = await DbContext.CreateApiPicture(newPicture, $"/iiif?{getPicture.Data.ImageId}", token)
+                    ?? throw new Exception("Sorry, something went wrong");
+                await DbContext.SetApiIdToPictureId(pictureId, pictureResult.Id);
+                await DbContext.AddPictureToCollection(pictureResult.Id, collectionId, token);
+            }
+            else
+            {
+                if (await DbContext.IsPictureInCollection(pictureDbId ?? 0, 
+                    collectionId, 
+                    token) ?? throw new Exception("Something went wrong")
+                ) 
+                {
+                    throw new Exception("Picture is already in that collection");
+                }
+                await DbContext.AddPictureToCollection(pictureDbId ?? 0, collectionId, token); // ?? 0 просто для преобразования long? в long
+            }
+
+            response.StatusCode = 200;
+        }
+    );
+
 var Framework = new Framework()
     .WithEndpoints(
         [
@@ -595,7 +874,12 @@ var Framework = new Framework()
             getUserApiLikes,
             checkAuthEndpoint,
             getUserBannerEndpoint,
-            postUserBannerEndpoint
+            postUserBannerEndpoint,
+            postUsernameEndpoint,
+            getCollectionsListEndpoint,
+            addApiPictureToCollectionEndpoint,
+            removeUserCollectionEndpoint,
+            getCollectionPageEndpoint
         ]
     )
     .WithDefault(ShowResourseFile);

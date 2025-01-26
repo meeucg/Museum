@@ -6,25 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/index.css" rel="stylesheet">
     <link href="/forms.css" rel="stylesheet">
+    <link href="/profile.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script defer type="module" src="/edit.js"></script>
     <title>Museonline, Edit profile</title>
 </head>
 <body style="background-color: rgba(0,0,0,0.2); background-image: none;">
     <div style="height: 100vh; width: 100vw;" class="center-container escape-on-click">
         <div style="height: 60%; width: 400px; overflow: auto; backdrop-filter: blur(25px); background-color: rgba(255,255,255,0.8); padding: 0px;" class="default-container">
             <div class="scrollable text-fading" style="padding: 3em; border-radius: inherit;">
-                <div class="text-title" style="align-self: center">Edit profile</div>
+                <div class="text-title" style="align-self: center">Collections</div>
                 <form class="default-form" style="margin-top: 2em">
-                    <input type="text" id="name" placeholder="Name" class="text-primary" />
-                    <input type="text" id="surname" placeholder="Surname" class="text-primary" />
-                    <a class="text-primary">Banner:</a>
-                    <div id="banner-preview" style="height: 100px; background-color: dimgray; border-radius: 15px; background-size: cover;"></div>
-                    <input type="file" id="change-banner" class="rounded-btn-white text-primary" style="align-self: flex-start;" accept=".png, .jpg, .jpeg"></input>
-                    <a id="errorMessage" class="error-message"></a>
-                    <button id="submit" class="text-primary rounded-btn-white">Save changes</button>
+                    {{#each collections}}
+                    <div id="{{this.id}}" class="collection-container" style="height: fit-content; width: 100%; padding-left: 2em; padding-right: 2em;">
+                        <a class="text-primary-bold" style="word-wrap: break-word;">{{this.name}}</a>
+                        <a class="text-secondary" style="word-wrap: break-word;">{{this.description}}</a>
+                    </div>
+                    {{/each}}
                 </form>
             </div>
         </div>
